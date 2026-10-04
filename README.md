@@ -7,7 +7,11 @@ The page (`site/index.html` + `site/app.js`, no build) fetches the official TSE 
 browser every 60 s (TSE echoes the request Origin in CORS) and shows president for Brazil, a state grid,
 and president/governor/senator per state. The default view is the current TSE count only; a
 "Resultado atual | Projeção" toggle (remembered in localStorage) switches to the projection of the final
-1st-round result, clearly labelled as an estimate.
+1st-round result, clearly labelled as an estimate (projected numbers only, no winner/50% verdict text).
+
+Candidate colours are keyed by ballot number: 13 (Lula) red, 22 (Flávio) blue, the 3rd place in the
+national ranking green, everyone else grey. Each state tile has three thin bars with those candidates'
+% of valid votes in the state.
 
 ## Projection
 For each state (and abroad, `zz`), the uncounted sections are assumed to vote like the counted ones:

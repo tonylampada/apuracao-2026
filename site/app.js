@@ -38,15 +38,22 @@ let mode = "atual";     // "atual" = TSE numbers only; "proj" = projection of th
 try { if (localStorage.getItem("modo") === "proj") mode = "proj"; } catch {}
 const P = () => mode === "proj";
 
+// Candidate colours by ballot number (captain's call): 13 Lula red, 22 Flávio blue, 3rd nationally green, rest grey.
+const CURTO = {13: "Lula", 22: "Flávio"};
+const curto = c => CURTO[c.n] || c.nome.split(" ").pop().toLowerCase().replace(/^./, s => s.toUpperCase());
+const terceiro = () => pres.br?.cands.find(c => c.n !== "13" && c.n !== "22");
+const cor = n => n === "13" ? "var(--c13)" : n === "22" ? "var(--c22)" : n === terceiro()?.n ? "var(--c3)" : "";
+const cc = n => cor(n) ? ` style="--cc:${cor(n)}"` : "";
+
 // Current mode: votes and % as TSE reports. Projection mode: projected figure first, current beside it, labelled.
 function candRows(list, opts) {
   const proj = P(), max = Math.max(...list.map(c => proj && opts.projPct ? Math.max(c.pct, c.ppct) : c.pct), 1);
   const head = proj ? `<div class="colh"><span>atual (TSE): votos · %</span><span>${opts.projPct ? "% projetado" : "votos projetados"}</span></div>` : "";
   return head + list.map(c => `<div class="cand">
-      <span class="nm">${esc(c.nome)} <small>${esc(c.sg)}</small>${c.eleito ? '<span class="tag el">eleito</span>' : ""}</span>
+      <span class="nm"${cc(c.n)}>${cor(c.n) ? '<i class="sw"></i>' : ""}${esc(c.nome)} <small>${esc(c.sg)}</small>${c.eleito ? '<span class="tag el">eleito</span>' : ""}</span>
       <span class="v">${proj ? '<small class="lab">atual</small> ' : ""}${fmt(c.votos)} · <b>${pct(c.pct)}</b></span>
       ${proj ? `<span class="pj"><small class="lab">projetado</small> ${opts.projPct ? pct(c.ppct) : fmt(c.proj)}</span>` : "<span></span>"}
-      <span class="bars">${proj && opts.projPct ? `<i class="p" style="width:${c.ppct / max * 100}%"></i>` : ""}<i class="a${proj ? "" : " full"}" style="width:${c.pct / max * 100}%"></i></span>
+      <span class="bars"${opts.color ? cc(c.n) : ""}>${proj && opts.projPct ? `<i class="p" style="width:${c.ppct / max * 100}%"></i>` : ""}<i class="a${proj ? "" : " full"}" style="width:${c.pct / max * 100}%"></i></span>
     </div>`).join("");
 }
 
@@ -59,13 +66,6 @@ function kpis(r) {
   </div><div class="prog"><i style="width:${r.pst}%"></i></div>`;
 }
 
-// Projection only, phrased as a 1st-round outcome.
-function verdict(list, key) {
-  const a = list[0];
-  if (!a) return "";
-  return a[key] > 50 ? `Projeção do 1º turno: ${esc(a.nome)} atinge 50%+ dos válidos` : "Projeção do 1º turno: nenhum candidato atinge 50% dos válidos";
-}
-
 function renderBR() {
   const br = pres.br;
   if (!br) return;
@@ -75,39 +75,41 @@ function renderBR() {
   const sum = Object.values(tot).reduce((a, b) => a + b, 0) || 1;
   const list = br.cands.map(c => ({...c, ppct: (tot[c.n] || 0) / sum * 100}));
   const missing = UFS.filter(u => !pres[u]).length;
-  const v = br.fim ? "Apuração encerrada" : P() ? verdict([...list].sort((a, b) => b.ppct - a.ppct), "ppct") : "";
+  const v = br.fim ? "Apuração encerrada" : "";
   $("#br").innerHTML = `<h2>Presidente · Brasil</h2>${kpis(br)}
     ${v ? `<div class="verdict">${v}</div>` : ""}
     ${P() ? `<div class="note" style="margin-bottom:6px">Barra escura = % atual; barra clara = % projetado (soma das projeções por estado).${missing ? ` <b>${missing} estado(s) sem dados nesta rodada.</b>` : ""}</div>` : ""}
-    ${candRows(list, {projPct: true})}`;
+    ${candRows(list, {projPct: true, color: true})}`;
 }
 
 function renderGrid() {
   const key = $("#sort").value;
   const ufs = UFS.filter(u => pres[u]).sort((a, b) => key === "uf" ? a.localeCompare(b) : key === "te" ? pres[b].te - pres[a].te : pres[a].pst - pres[b].pst);
+  const t = terceiro();
+  $("#leg").innerHTML = [["13", "Lula"], ["22", "Flávio"], [t?.n, t && curto(t)]].filter(x => x[0])
+    .map(([n, s]) => `<span${cc(n)}><i></i>${esc(s)}</span>`).join("") + `<span style="color:var(--mut)">${P() ? "% projetado" : "% dos válidos"} no estado</span>`;
   $("#grid").innerHTML = ufs.map(u => {
     const r = pres[u], l = r.cands[0];
+    // within a state every candidate is scaled by the same factor, so projected % == current %
+    const bars = ["13", "22", t?.n].map(n => r.cands.find(c => c.n === n)).filter(Boolean)
+      .map(c => `<span class="tb"${cc(c.n)} title="${esc(curto(c))} ${pct(c.pct)}"><i style="width:${c.pct}%"></i></span>`).join("");
     return `<button class="uf${u === sel ? " sel" : ""}" style="--p:${r.pst / 100}" data-uf="${u}">
       <b>${u.toUpperCase()}</b><span class="pc">${pct(r.pst)}</span>
-      <span class="ld">${l ? esc(l.nome) + " " + l.pct.toFixed(1) + "%" : "—"}</span></button>`;
+      <span class="ld"${cc(l?.n)}>${l ? esc(curto(l)) + " " + pct(l.pct) : "—"}</span>${bars}${P() ? '<small class="pl">% projetado</small>' : ""}</button>`;
   }).join("");
 }
 
-function raceBlock(title, r) {
+function raceBlock(title, r, color) {
   if (!r) return `<div><h3>${title}</h3><div class="note">sem dados</div></div>`;
-  let v = "";
-  if (r.fim) v = "Apuração encerrada";
-  else if (!P()) v = "";
-  else if (title === "Governador") v = verdict(r.cands, "pct");
-  else if (title === "Senador") v = `Projeção (${r.vagas} vaga${r.vagas > 1 ? "s" : ""}): ` + r.cands.slice(0, r.vagas).map(c => esc(c.nome)).join(", ");
-  return `<div><h3>${title} · ${pct(r.pst)} apurado</h3>${v ? `<div class="verdict">${v}</div>` : ""}${candRows(r.cands, {projPct: false})}</div>`;
+  const v = r.fim ? "Apuração encerrada" : "";
+  return `<div><h3>${title} · ${pct(r.pst)} apurado</h3>${v ? `<div class="verdict">${v}</div>` : ""}${candRows(r.cands, {projPct: false, color})}</div>`;
 }
 
 function renderUF() {
   const p = pres[sel], x = ufRaces[sel] || {};
   $("#ufbody").className = "";
   $("#ufbody").innerHTML = (p ? kpis(p) + (P() ? `<div class="note">Fator de projeção: ×${p.f.toLocaleString("pt-BR", {maximumFractionDigits: 2})} (votos atuais → total esperado). Atualizado ${esc(p.hora)}.</div>` : "") : "") +
-    `<div class="cols">${raceBlock("Presidente", p)}${sel === "zz" ? "" : raceBlock("Governador", x.gov) + raceBlock("Senador", x.sen)}</div>`;
+    `<div class="cols">${raceBlock("Presidente", p, true)}${sel === "zz" ? "" : raceBlock("Governador", x.gov) + raceBlock("Senador", x.sen)}</div>`;
 }
 
 async function loadUF(uf) {
@@ -145,7 +147,7 @@ function setMode(m) {
   try { localStorage.setItem("modo", m); } catch {}
   document.body.classList.toggle("proj", m === "proj");
   document.querySelectorAll("#modo button").forEach(b => b.setAttribute("aria-pressed", b.dataset.m === m));
-  if (pres.br) { renderBR(); renderUF(); }
+  if (pres.br) { renderBR(); renderGrid(); renderUF(); }
 }
 $("#modo").onclick = e => { const b = e.target.closest("button"); if (b) setMode(b.dataset.m); };
 setMode(mode);
