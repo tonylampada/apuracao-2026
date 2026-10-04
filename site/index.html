@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apuração 2026</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16191d;--mut:#69717d;--line:#e3e6ea;--bar:#5b6b7f;--proj:#c2cad4;--acc:#2d5b8a;--warn:#a35d00}
+@media (prefers-color-scheme:dark){:root{--bg:#111316;--card:#1a1d21;--ink:#e8eaed;--mut:#9aa2ad;--line:#2a2f35;--bar:#8fa3ba;--proj:#3a434e;--acc:#8db6e0;--warn:#e0a050}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:1000px;margin:0 auto;padding:12px 16px 40px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px;margin:4px 0 12px}
+h1{font-size:22px;margin:0}
+h2{font-size:17px;margin:0 0 10px}
+h3{font-size:14px;margin:16px 0 6px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut)}
+#status{font-size:13px;color:var(--mut)}
+#status.err{color:var(--warn)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:14px;min-width:0}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:12px}
+.kpi{min-width:0}.kpi b{display:block;font-size:20px;font-variant-numeric:tabular-nums}.kpi span{font-size:12px;color:var(--mut)}
+@media (max-width:520px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.prog{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin:4px 0 12px}.prog i{display:block;height:100%;background:var(--acc)}
+.cand{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 10px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line)}
+.cand:first-of-type{border-top:0}
+.cand .nm{grid-column:1/-1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.cand .nm small{font-weight:400;color:var(--mut)}
+.cand .v{font-variant-numeric:tabular-nums}
+.cand .pj{font-variant-numeric:tabular-nums;text-align:right;font-weight:700;min-width:62px}
+.cand .sub{grid-column:1/-1;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}
+.bars{grid-column:1/-1;position:relative;height:8px;background:var(--line);border-radius:4px;margin-top:4px;overflow:hidden}
+.bars i{position:absolute;left:0;top:0;bottom:0;border-radius:4px}.bars .p{background:var(--proj)}.bars .a{background:var(--bar);height:4px;top:2px}
+.colh{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 10px;font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
+.colh span:nth-child(2){text-align:right;min-width:62px}
+.tag{display:inline-block;font-size:11px;padding:1px 6px;border-radius:9px;border:1px solid var(--line);color:var(--mut);margin-left:4px;font-weight:600}
+.tag.el{border-color:var(--acc);color:var(--acc)}
+.note{font-size:13px;color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:6px}
+.uf{position:relative;border:1px solid var(--line);border-radius:8px;padding:6px 7px;cursor:pointer;background:var(--card);overflow:hidden;min-width:0;font:inherit;color:inherit;text-align:left}
+.uf::before{content:"";position:absolute;inset:0;background:var(--acc);opacity:calc(var(--p) * .28)}
+.uf>*{position:relative}.uf.sel{outline:2px solid var(--acc)}
+.uf b{font-size:15px}.uf .pc{float:right;font-size:12px;font-variant-numeric:tabular-nums}
+.uf .ld{display:block;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--mut)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.sortb{font-size:13px;color:var(--mut)}
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:820px){.cols{grid-template-columns:minmax(0,1fr)}}
+.verdict{font-size:13px;margin:6px 0 2px;color:var(--acc);font-weight:600}
+details summary{cursor:pointer;font-weight:600}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+<main>
+<header><h1>Apuração 2026 · 1º turno</h1><div id="status">carregando…</div></header>
+
+<section class="card" id="br"><h2>Presidente · Brasil</h2><div class="note">carregando…</div></section>
+
+<section class="card">
+  <div class="row"><h2 style="margin:0">Estados</h2>
+    <span class="sortb">ordenar: <select id="sort"><option value="pst">% apurado</option><option value="te">eleitorado</option><option value="uf">sigla</option></select></span></div>
+  <div class="note" style="margin-bottom:8px">Fundo = % de seções apuradas. Texto = líder atual para presidente. Toque num estado para detalhar.</div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="card" id="ufcard">
+  <div class="row"><h2 style="margin:0">Estado</h2><select id="uf"></select></div>
+  <div id="ufbody" class="note">carregando…</div>
+</section>
+
+<section class="card note">
+<details open><summary>Como a projeção é calculada</summary>
+<p>Para cada estado (e para o exterior), supõe-se que as seções ainda não apuradas votam nas mesmas proporções que as já apuradas. Cada candidato tem seus votos escalados pelo fator <code>eleitorado total ÷ eleitorado das seções apuradas</code> (campos <code>e.te</code> e <code>e.est</code> do TSE), ou seja, projeta o total de votos esperado no estado mantendo o comparecimento observado.</p>
+<p>A projeção nacional para presidente é a soma das projeções de cada estado + exterior. Isso corrige o viés de estados grandes (SP, RJ, MG…) que apuram mais devagar. Governador e senador usam a mesma conta por estado.</p>
+<p><b>Ressalva:</b> a projeção supõe comportamento uniforme dentro de cada estado; capitais e interior costumam apurar em ritmos diferentes e votar diferente, então a projeção pode errar, principalmente com pouco apurado.</p>
+<p>Dados: <a href="https://resultados.tse.jus.br/oficial/app/index.html">TSE — resultados oficiais</a>, lidos direto do navegador a cada 60 s. Apresentação neutra, candidatos ordenados por votos. Código: <a href="https://github.com/tonylampada/apuracao-2026">github.com/tonylampada/apuracao-2026</a>.</p>
+</details>
+</section>
+</main>
+<script src="app.js?v=2"></script>
+</body>
+</html>

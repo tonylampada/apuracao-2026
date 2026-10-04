@@ -1,0 +1,7892 @@
+{
+ "rows": [
+  {
+   "uf": "br",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:19:31",
+   "pst": 21.96,
+   "eleitorado": 158745502,
+   "total": 26377493,
+   "validos": 25289745,
+   "brancos": 430716,
+   "nulos": 657032,
+   "fator": 4.7596,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 12915526,
+     "pct": 51.07,
+     "eleito": false,
+     "proj": 61472286
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 10324360,
+     "pct": 40.82,
+     "eleito": false,
+     "proj": 49139463
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 743675,
+     "pct": 2.94,
+     "eleito": false,
+     "proj": 3539570
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 602335,
+     "pct": 2.38,
+     "eleito": false,
+     "proj": 2866853
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 574607,
+     "pct": 2.27,
+     "eleito": false,
+     "proj": 2734879
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 72547,
+     "pct": 0.29,
+     "eleito": false,
+     "proj": 345292
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 26074,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 124101
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 9640,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 45882
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 8955,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 42622
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 4700,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 22370
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 3772,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 17953
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 3554,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 16915
+    }
+   ]
+  },
+  {
+   "uf": "ac",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:02",
+   "pst": 58.19,
+   "eleitorado": 613742,
+   "total": 278522,
+   "validos": 267882,
+   "brancos": 3196,
+   "nulos": 7444,
+   "fator": 1.7565,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 171917,
+     "pct": 64.18,
+     "eleito": false,
+     "proj": 301972
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 77045,
+     "pct": 28.76,
+     "eleito": false,
+     "proj": 135330
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 8098,
+     "pct": 3.02,
+     "eleito": false,
+     "proj": 14224
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 5274,
+     "pct": 1.97,
+     "eleito": false,
+     "proj": 9264
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 4713,
+     "pct": 1.76,
+     "eleito": false,
+     "proj": 8278
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 351,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 617
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 200,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 351
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 119,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 209
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 77,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 135
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 46,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 81
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 24,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 42
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 18,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 32
+    }
+   ]
+  },
+  {
+   "uf": "al",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:32",
+   "pst": 11.1,
+   "eleitorado": 2442126,
+   "total": 184931,
+   "validos": 173765,
+   "brancos": 2899,
+   "nulos": 8267,
+   "fator": 10.5457,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 100018,
+     "pct": 57.56,
+     "eleito": false,
+     "proj": 1054758
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 65771,
+     "pct": 37.85,
+     "eleito": false,
+     "proj": 693600
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 3953,
+     "pct": 2.27,
+     "eleito": false,
+     "proj": 41687
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 2281,
+     "pct": 1.31,
+     "eleito": false,
+     "proj": 24055
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 1341,
+     "pct": 0.77,
+     "eleito": false,
+     "proj": 14142
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 126,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 1329
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 119,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 1255
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 60,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 633
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 38,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 401
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 24,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 253
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 22,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 232
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 12,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 127
+    }
+   ]
+  },
+  {
+   "uf": "am",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:03",
+   "pst": 40.11,
+   "eleitorado": 2798611,
+   "total": 888398,
+   "validos": 861177,
+   "brancos": 11581,
+   "nulos": 15640,
+   "fator": 2.5613,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 431627,
+     "pct": 50.12,
+     "eleito": false,
+     "proj": 1105523
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 361724,
+     "pct": 42.0,
+     "eleito": false,
+     "proj": 926481
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 35494,
+     "pct": 4.12,
+     "eleito": false,
+     "proj": 90910
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 16604,
+     "pct": 1.93,
+     "eleito": false,
+     "proj": 42528
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 12707,
+     "pct": 1.48,
+     "eleito": false,
+     "proj": 32546
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 1016,
+     "pct": 0.12,
+     "eleito": false,
+     "proj": 2602
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 958,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 2454
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 429,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 1099
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 258,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 661
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 143,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 366
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 116,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 297
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 101,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 259
+    }
+   ]
+  },
+  {
+   "uf": "ap",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:21:32",
+   "pst": 26.07,
+   "eleitorado": 576988,
+   "total": 101520,
+   "validos": 99136,
+   "brancos": 802,
+   "nulos": 1582,
+   "fator": 4.6169,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 49913,
+     "pct": 50.35,
+     "eleito": false,
+     "proj": 230445
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 41705,
+     "pct": 42.07,
+     "eleito": false,
+     "proj": 192549
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 3782,
+     "pct": 3.81,
+     "eleito": false,
+     "proj": 17461
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 1948,
+     "pct": 1.96,
+     "eleito": false,
+     "proj": 8994
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 1570,
+     "pct": 1.58,
+     "eleito": false,
+     "proj": 7249
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 64,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 295
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 63,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 291
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 36,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 166
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 23,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 106
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 13,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 60
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 12,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 55
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 7,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 32
+    }
+   ]
+  },
+  {
+   "uf": "ba",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:35",
+   "pst": 12.84,
+   "eleitorado": 11312752,
+   "total": 1070000,
+   "validos": 1010967,
+   "brancos": 18509,
+   "nulos": 40524,
+   "fator": 8.5098,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 650424,
+     "pct": 64.34,
+     "eleito": false,
+     "proj": 5535000
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 300587,
+     "pct": 29.73,
+     "eleito": false,
+     "proj": 2557945
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 24027,
+     "pct": 2.38,
+     "eleito": false,
+     "proj": 204466
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 17538,
+     "pct": 1.73,
+     "eleito": false,
+     "proj": 149245
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 15718,
+     "pct": 1.55,
+     "eleito": false,
+     "proj": 133758
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 1090,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 9276
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 687,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 5846
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 276,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 2349
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 208,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1770
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 170,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1447
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 148,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 1259
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 94,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 800
+    }
+   ]
+  },
+  {
+   "uf": "ce",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:21:33",
+   "pst": 12.34,
+   "eleitorado": 6996545,
+   "total": 676603,
+   "validos": 646514,
+   "brancos": 10509,
+   "nulos": 19580,
+   "fator": 8.7391,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 390689,
+     "pct": 60.43,
+     "eleito": false,
+     "proj": 3414276
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 216836,
+     "pct": 33.54,
+     "eleito": false,
+     "proj": 1894955
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 16440,
+     "pct": 2.54,
+     "eleito": false,
+     "proj": 143671
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 14072,
+     "pct": 2.18,
+     "eleito": false,
+     "proj": 122977
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 6497,
+     "pct": 1.0,
+     "eleito": false,
+     "proj": 56778
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 848,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 7411
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 512,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 4474
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 223,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 1949
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 123,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1075
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 111,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 970
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 86,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 752
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 77,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 673
+    }
+   ]
+  },
+  {
+   "uf": "df",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:21:31",
+   "pst": 86.6,
+   "eleitorado": 2258320,
+   "total": 1569251,
+   "validos": 1519785,
+   "brancos": 21425,
+   "nulos": 28041,
+   "fator": 1.1693,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 778076,
+     "pct": 51.2,
+     "eleito": false,
+     "proj": 909841
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 580327,
+     "pct": 38.18,
+     "eleito": false,
+     "proj": 678604
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 73024,
+     "pct": 4.8,
+     "eleito": false,
+     "proj": 85390
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 40227,
+     "pct": 2.65,
+     "eleito": false,
+     "proj": 47039
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 39550,
+     "pct": 2.6,
+     "eleito": false,
+     "proj": 46248
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 4379,
+     "pct": 0.29,
+     "eleito": false,
+     "proj": 5121
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 1984,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 2320
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 712,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 833
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 600,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 702
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 337,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 394
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 285,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 333
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 284,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 332
+    }
+   ]
+  },
+  {
+   "uf": "es",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:03",
+   "pst": 56.69,
+   "eleitorado": 2991650,
+   "total": 1292375,
+   "validos": 1238780,
+   "brancos": 22539,
+   "nulos": 31056,
+   "fator": 1.8333,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 696929,
+     "pct": 56.26,
+     "eleito": false,
+     "proj": 1277659
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 448884,
+     "pct": 36.24,
+     "eleito": false,
+     "proj": 822926
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 35736,
+     "pct": 2.88,
+     "eleito": false,
+     "proj": 65514
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 29139,
+     "pct": 2.35,
+     "eleito": false,
+     "proj": 53420
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 22048,
+     "pct": 1.78,
+     "eleito": false,
+     "proj": 40420
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 3606,
+     "pct": 0.29,
+     "eleito": false,
+     "proj": 6611
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 1023,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 1875
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 523,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 959
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 357,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 654
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 200,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 367
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 178,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 326
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 157,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 288
+    }
+   ]
+  },
+  {
+   "uf": "go",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:20:53",
+   "pst": 26.02,
+   "eleitorado": 5080590,
+   "total": 992497,
+   "validos": 958515,
+   "brancos": 10907,
+   "nulos": 23075,
+   "fator": 4.0253,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 543214,
+     "pct": 56.67,
+     "eleito": false,
+     "proj": 2186581
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 273320,
+     "pct": 28.51,
+     "eleito": false,
+     "proj": 1100186
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 111530,
+     "pct": 11.64,
+     "eleito": false,
+     "proj": 448938
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 14300,
+     "pct": 1.49,
+     "eleito": false,
+     "proj": 57561
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 14194,
+     "pct": 1.48,
+     "eleito": false,
+     "proj": 57135
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 783,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 3152
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 582,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 2343
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 170,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 684
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 145,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 584
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 117,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 471
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 88,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 354
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 72,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 290
+    }
+   ]
+  },
+  {
+   "uf": "ma",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:20:56",
+   "pst": 19.89,
+   "eleitorado": 5183115,
+   "total": 760862,
+   "validos": 735012,
+   "brancos": 8483,
+   "nulos": 17367,
+   "fator": 5.522,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 443291,
+     "pct": 60.31,
+     "eleito": false,
+     "proj": 2447837
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 251214,
+     "pct": 34.18,
+     "eleito": false,
+     "proj": 1387195
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 16358,
+     "pct": 2.23,
+     "eleito": false,
+     "proj": 90328
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 11480,
+     "pct": 1.56,
+     "eleito": false,
+     "proj": 63392
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 10481,
+     "pct": 1.43,
+     "eleito": false,
+     "proj": 57876
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 1024,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 5654
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 385,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 2126
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 384,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 2120
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 194,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 1071
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 89,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 491
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 58,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 320
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 54,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 298
+    }
+   ]
+  },
+  {
+   "uf": "mg",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:37",
+   "pst": 20.9,
+   "eleitorado": 16372372,
+   "total": 2712031,
+   "validos": 2580315,
+   "brancos": 54415,
+   "nulos": 77301,
+   "fator": 4.6218,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 1264377,
+     "pct": 49.0,
+     "eleito": false,
+     "proj": 5843713
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 1080528,
+     "pct": 41.88,
+     "eleito": false,
+     "proj": 4993997
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 91182,
+     "pct": 3.53,
+     "eleito": false,
+     "proj": 421426
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 58723,
+     "pct": 2.28,
+     "eleito": false,
+     "proj": 271407
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 54262,
+     "pct": 2.1,
+     "eleito": false,
+     "proj": 250789
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 24874,
+     "pct": 0.96,
+     "eleito": false,
+     "proj": 114963
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 3049,
+     "pct": 0.12,
+     "eleito": false,
+     "proj": 14092
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 1202,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 5555
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 787,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 3637
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 499,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 2306
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 427,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1974
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 405,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1872
+    }
+   ]
+  },
+  {
+   "uf": "ms",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:21:32",
+   "pst": 69.81,
+   "eleitorado": 2024430,
+   "total": 1073306,
+   "validos": 1037834,
+   "brancos": 15016,
+   "nulos": 20456,
+   "fator": 1.4416,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 621116,
+     "pct": 59.85,
+     "eleito": false,
+     "proj": 895403
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 343072,
+     "pct": 33.06,
+     "eleito": false,
+     "proj": 494574
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 28531,
+     "pct": 2.75,
+     "eleito": false,
+     "proj": 41130
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 23279,
+     "pct": 2.24,
+     "eleito": false,
+     "proj": 33559
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 17542,
+     "pct": 1.69,
+     "eleito": false,
+     "proj": 25289
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 2112,
+     "pct": 0.2,
+     "eleito": false,
+     "proj": 3045
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 955,
+     "pct": 0.09,
+     "eleito": false,
+     "proj": 1377
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 453,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 653
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 272,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 392
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 218,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 314
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 143,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 206
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 141,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 203
+    }
+   ]
+  },
+  {
+   "uf": "mt",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:03",
+   "pst": 45.47,
+   "eleitorado": 2637801,
+   "total": 919346,
+   "validos": 893558,
+   "brancos": 9170,
+   "nulos": 16618,
+   "fator": 2.2621,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 582308,
+     "pct": 65.17,
+     "eleito": false,
+     "proj": 1317254
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 256659,
+     "pct": 28.72,
+     "eleito": false,
+     "proj": 580595
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 19228,
+     "pct": 2.15,
+     "eleito": false,
+     "proj": 43496
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 15928,
+     "pct": 1.78,
+     "eleito": false,
+     "proj": 36031
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 15870,
+     "pct": 1.78,
+     "eleito": false,
+     "proj": 35900
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 1264,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 2859
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 1051,
+     "pct": 0.12,
+     "eleito": false,
+     "proj": 2377
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 820,
+     "pct": 0.09,
+     "eleito": false,
+     "proj": 1855
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 168,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 380
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 104,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 235
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 100,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 226
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 58,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 131
+    }
+   ]
+  },
+  {
+   "uf": "pa",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:21:35",
+   "pst": 34.0,
+   "eleitorado": 6262397,
+   "total": 1719185,
+   "validos": 1647597,
+   "brancos": 21921,
+   "nulos": 49667,
+   "fator": 2.9606,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 776700,
+     "pct": 47.14,
+     "eleito": false,
+     "proj": 2299463
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 759394,
+     "pct": 46.09,
+     "eleito": false,
+     "proj": 2248228
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 48731,
+     "pct": 2.96,
+     "eleito": false,
+     "proj": 144271
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 34954,
+     "pct": 2.12,
+     "eleito": false,
+     "proj": 103483
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 22550,
+     "pct": 1.37,
+     "eleito": false,
+     "proj": 66761
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 1979,
+     "pct": 0.12,
+     "eleito": false,
+     "proj": 5859
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 1517,
+     "pct": 0.09,
+     "eleito": false,
+     "proj": 4491
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 561,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 1661
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 552,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 1634
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 255,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 755
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 251,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 743
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 153,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 453
+    }
+   ]
+  },
+  {
+   "uf": "pb",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:21:35",
+   "pst": 59.12,
+   "eleitorado": 3248531,
+   "total": 1534213,
+   "validos": 1440257,
+   "brancos": 28988,
+   "nulos": 64968,
+   "fator": 1.7516,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 875518,
+     "pct": 60.79,
+     "eleito": false,
+     "proj": 1533596
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 481284,
+     "pct": 33.42,
+     "eleito": false,
+     "proj": 843038
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 43042,
+     "pct": 2.99,
+     "eleito": false,
+     "proj": 75394
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 25521,
+     "pct": 1.77,
+     "eleito": false,
+     "proj": 44704
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 11545,
+     "pct": 0.8,
+     "eleito": false,
+     "proj": 20223
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 1183,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 2072
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 912,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 1597
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 392,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 687
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 360,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 631
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 194,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 340
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 173,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 303
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 133,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 233
+    }
+   ]
+  },
+  {
+   "uf": "pe",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:21:34",
+   "pst": 15.56,
+   "eleitorado": 7223450,
+   "total": 808135,
+   "validos": 768899,
+   "brancos": 14049,
+   "nulos": 25187,
+   "fator": 7.3975,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 468666,
+     "pct": 60.95,
+     "eleito": false,
+     "proj": 3466945
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 255270,
+     "pct": 33.2,
+     "eleito": false,
+     "proj": 1888354
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 19053,
+     "pct": 2.48,
+     "eleito": false,
+     "proj": 140944
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 12743,
+     "pct": 1.66,
+     "eleito": false,
+     "proj": 94266
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 10952,
+     "pct": 1.42,
+     "eleito": false,
+     "proj": 81017
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 1251,
+     "pct": 0.16,
+     "eleito": false,
+     "proj": 9254
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 381,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 2818
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 190,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1406
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 130,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 962
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 100,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 740
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 88,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 651
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 75,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 555
+    }
+   ]
+  },
+  {
+   "uf": "pi",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:34",
+   "pst": 32.66,
+   "eleitorado": 2704758,
+   "total": 720994,
+   "validos": 691201,
+   "brancos": 9148,
+   "nulos": 20645,
+   "fator": 3.0941,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 467512,
+     "pct": 67.64,
+     "eleito": false,
+     "proj": 1446528
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 185779,
+     "pct": 26.88,
+     "eleito": false,
+     "proj": 574818
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 16869,
+     "pct": 2.44,
+     "eleito": false,
+     "proj": 52194
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 11852,
+     "pct": 1.71,
+     "eleito": false,
+     "proj": 36671
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 7636,
+     "pct": 1.1,
+     "eleito": false,
+     "proj": 23627
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 582,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 1801
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 415,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 1284
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 174,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 538
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 165,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 511
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 106,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 328
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 62,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 192
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 49,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 152
+    }
+   ]
+  },
+  {
+   "uf": "pr",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:19:35",
+   "pst": 59.0,
+   "eleitorado": 8613657,
+   "total": 4020655,
+   "validos": 3873045,
+   "brancos": 69260,
+   "nulos": 78350,
+   "fator": 1.7047,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 2332759,
+     "pct": 60.23,
+     "eleito": false,
+     "proj": 3976691
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 1188040,
+     "pct": 30.67,
+     "eleito": false,
+     "proj": 2025270
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 123046,
+     "pct": 3.18,
+     "eleito": false,
+     "proj": 209758
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 107315,
+     "pct": 2.77,
+     "eleito": false,
+     "proj": 182942
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 101833,
+     "pct": 2.63,
+     "eleito": false,
+     "proj": 173596
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 11164,
+     "pct": 0.29,
+     "eleito": false,
+     "proj": 19031
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 4218,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 7190
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 1455,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 2480
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 1276,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 2175
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 741,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1263
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 610,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1040
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 588,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1002
+    }
+   ]
+  },
+  {
+   "uf": "rj",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:03",
+   "pst": 8.07,
+   "eleitorado": 12857648,
+   "total": 703286,
+   "validos": 672675,
+   "brancos": 12228,
+   "nulos": 18383,
+   "fator": 14.1794,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 354126,
+     "pct": 52.64,
+     "eleito": false,
+     "proj": 5021287
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 268010,
+     "pct": 39.84,
+     "eleito": false,
+     "proj": 3800215
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 17802,
+     "pct": 2.65,
+     "eleito": false,
+     "proj": 252421
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 14501,
+     "pct": 2.16,
+     "eleito": false,
+     "proj": 205615
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 14388,
+     "pct": 2.14,
+     "eleito": false,
+     "proj": 204013
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 1868,
+     "pct": 0.28,
+     "eleito": false,
+     "proj": 26487
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 929,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 13173
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 286,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 4055
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 279,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 3956
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 208,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 2949
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 141,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1999
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 137,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1943
+    }
+   ]
+  },
+  {
+   "uf": "rn",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:33",
+   "pst": 23.99,
+   "eleitorado": 2659825,
+   "total": 476305,
+   "validos": 455275,
+   "brancos": 6789,
+   "nulos": 14241,
+   "fator": 4.5914,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 276915,
+     "pct": 60.82,
+     "eleito": false,
+     "proj": 1271423
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 153429,
+     "pct": 33.7,
+     "eleito": false,
+     "proj": 704451
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 12630,
+     "pct": 2.77,
+     "eleito": false,
+     "proj": 57989
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 7657,
+     "pct": 1.68,
+     "eleito": false,
+     "proj": 35156
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 3687,
+     "pct": 0.81,
+     "eleito": false,
+     "proj": 16928
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 330,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 1515
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 276,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 1267
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 121,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 556
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 77,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 354
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 76,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 349
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 43,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 197
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 34,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 156
+    }
+   ]
+  },
+  {
+   "uf": "ro",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:03",
+   "pst": 51.7,
+   "eleitorado": 1265893,
+   "total": 516011,
+   "validos": 503389,
+   "brancos": 5287,
+   "nulos": 7335,
+   "fator": 1.9388,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 323497,
+     "pct": 64.26,
+     "eleito": false,
+     "proj": 627202
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 142916,
+     "pct": 28.39,
+     "eleito": false,
+     "proj": 277088
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 14825,
+     "pct": 2.95,
+     "eleito": false,
+     "proj": 28743
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 11009,
+     "pct": 2.19,
+     "eleito": false,
+     "proj": 21344
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 9328,
+     "pct": 1.85,
+     "eleito": false,
+     "proj": 18085
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 674,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 1307
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 587,
+     "pct": 0.12,
+     "eleito": false,
+     "proj": 1138
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 230,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 446
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 116,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 225
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 100,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 194
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 74,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 143
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 33,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 64
+    }
+   ]
+  },
+  {
+   "uf": "rr",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:17:51",
+   "pst": 18.1,
+   "eleitorado": 401521,
+   "total": 54760,
+   "validos": 53557,
+   "brancos": 316,
+   "nulos": 887,
+   "fator": 6.1283,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 36483,
+     "pct": 68.12,
+     "eleito": false,
+     "proj": 223579
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 14649,
+     "pct": 27.35,
+     "eleito": false,
+     "proj": 89774
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 1075,
+     "pct": 2.01,
+     "eleito": false,
+     "proj": 6588
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 699,
+     "pct": 1.31,
+     "eleito": false,
+     "proj": 4284
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 542,
+     "pct": 1.01,
+     "eleito": false,
+     "proj": 3322
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 42,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 257
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 34,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 208
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 13,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 80
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 7,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 43
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 6,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 37
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 4,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 25
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 3,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 18
+    }
+   ]
+  },
+  {
+   "uf": "rs",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:20:42",
+   "pst": 40.26,
+   "eleitorado": 8522545,
+   "total": 2678268,
+   "validos": 2570761,
+   "brancos": 56005,
+   "nulos": 51502,
+   "fator": 2.5159,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 1471544,
+     "pct": 57.24,
+     "eleito": false,
+     "proj": 3702266
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 878584,
+     "pct": 34.18,
+     "eleito": false,
+     "proj": 2210434
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 79481,
+     "pct": 3.09,
+     "eleito": false,
+     "proj": 199967
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 66303,
+     "pct": 2.58,
+     "eleito": false,
+     "proj": 166812
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 61849,
+     "pct": 2.41,
+     "eleito": false,
+     "proj": 155606
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 7748,
+     "pct": 0.3,
+     "eleito": false,
+     "proj": 19493
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 2477,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 6232
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 807,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 2030
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 792,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 1993
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 404,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1016
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 404,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1016
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 368,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 926
+    }
+   ]
+  },
+  {
+   "uf": "sc",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:21:33",
+   "pst": 19.99,
+   "eleitorado": 5734651,
+   "total": 903983,
+   "validos": 876821,
+   "brancos": 12579,
+   "nulos": 14583,
+   "fator": 5.1502,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 552424,
+     "pct": 63.0,
+     "eleito": false,
+     "proj": 2845074
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 249177,
+     "pct": 28.42,
+     "eleito": false,
+     "proj": 1283302
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 27012,
+     "pct": 3.08,
+     "eleito": false,
+     "proj": 139116
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 25541,
+     "pct": 2.91,
+     "eleito": false,
+     "proj": 131540
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 16838,
+     "pct": 1.92,
+     "eleito": false,
+     "proj": 86718
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 3654,
+     "pct": 0.42,
+     "eleito": false,
+     "proj": 18819
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 1150,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 5923
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 320,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 1648
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 284,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 1463
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 145,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 747
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 142,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 731
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 134,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 690
+    }
+   ]
+  },
+  {
+   "uf": "se",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:33",
+   "pst": 21.56,
+   "eleitorado": 1740135,
+   "total": 292743,
+   "validos": 278976,
+   "brancos": 4643,
+   "nulos": 9124,
+   "fator": 4.9547,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 162187,
+     "pct": 58.14,
+     "eleito": false,
+     "proj": 803586
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 96662,
+     "pct": 34.65,
+     "eleito": false,
+     "proj": 478930
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 8554,
+     "pct": 3.07,
+     "eleito": false,
+     "proj": 42382
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 5716,
+     "pct": 2.05,
+     "eleito": false,
+     "proj": 28321
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 4955,
+     "pct": 1.78,
+     "eleito": false,
+     "proj": 24550
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 359,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 1779
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 219,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 1085
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 127,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 629
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 96,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 476
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 50,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 248
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 29,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 144
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 22,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 109
+    }
+   ]
+  },
+  {
+   "uf": "sp",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:19:59",
+   "pst": 11.6,
+   "eleitorado": 34122892,
+   "total": 2910608,
+   "validos": 2749944,
+   "brancos": 66889,
+   "nulos": 93775,
+   "fator": 9.1321,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 1569040,
+     "pct": 57.06,
+     "eleito": false,
+     "proj": 14328702
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 929766,
+     "pct": 33.81,
+     "eleito": false,
+     "proj": 8490758
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 93426,
+     "pct": 3.4,
+     "eleito": false,
+     "proj": 853180
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 79336,
+     "pct": 2.89,
+     "eleito": false,
+     "proj": 724508
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 61502,
+     "pct": 2.24,
+     "eleito": false,
+     "proj": 561645
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 9035,
+     "pct": 0.33,
+     "eleito": false,
+     "proj": 82509
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 3788,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 34593
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 1479,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 13506
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 965,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 8813
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 659,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 6018
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 521,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 4758
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 427,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 3899
+    }
+   ]
+  },
+  {
+   "uf": "to",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:07",
+   "pst": 73.31,
+   "eleitorado": 1182023,
+   "total": 694499,
+   "validos": 670041,
+   "brancos": 5900,
+   "nulos": 18558,
+   "fator": 1.3906,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 338920,
+     "pct": 50.58,
+     "eleito": false,
+     "proj": 471293
+    },
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 289383,
+     "pct": 43.19,
+     "eleito": false,
+     "proj": 402408
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 16117,
+     "pct": 2.41,
+     "eleito": false,
+     "proj": 22412
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 14980,
+     "pct": 2.24,
+     "eleito": false,
+     "proj": 20831
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 9518,
+     "pct": 1.42,
+     "eleito": false,
+     "proj": 13235
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 456,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 634
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 297,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 413
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 119,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 165
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 84,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 117
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 82,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 114
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 43,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 60
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 42,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 58
+    }
+   ]
+  },
+  {
+   "uf": "zz",
+   "race": "presidente",
+   "gerado": "04/10/2026 18:22:34",
+   "pst": 62.18,
+   "eleitorado": 916534,
+   "total": 227160,
+   "validos": 219318,
+   "brancos": 4268,
+   "nulos": 3574,
+   "fator": 1.6166,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "LULA",
+     "votos": 114684,
+     "pct": 52.29,
+     "eleito": false,
+     "proj": 185398
+    },
+    {
+     "n": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "votos": 83591,
+     "pct": 38.11,
+     "eleito": false,
+     "proj": 135133
+    },
+    {
+     "n": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "votos": 7068,
+     "pct": 3.22,
+     "eleito": false,
+     "proj": 11426
+    },
+    {
+     "n": "14",
+     "nome": "RENAN SANTOS",
+     "votos": 6111,
+     "pct": 2.79,
+     "eleito": false,
+     "proj": 9879
+    },
+    {
+     "n": "55",
+     "nome": "RONALDO CAIADO",
+     "votos": 3115,
+     "pct": 1.42,
+     "eleito": false,
+     "proj": 5036
+    },
+    {
+     "n": "30",
+     "nome": "ZEMA",
+     "votos": 2176,
+     "pct": 0.99,
+     "eleito": false,
+     "proj": 3518
+    },
+    {
+     "n": "80",
+     "nome": "SAMARA",
+     "votos": 860,
+     "pct": 0.39,
+     "eleito": false,
+     "proj": 1390
+    },
+    {
+     "n": "27",
+     "nome": "CLARIANA BARAO",
+     "votos": 691,
+     "pct": 0.32,
+     "eleito": false,
+     "proj": 1117
+    },
+    {
+     "n": "21",
+     "nome": "EDMILSON COSTA",
+     "votos": 333,
+     "pct": 0.15,
+     "eleito": false,
+     "proj": 538
+    },
+    {
+     "n": "16",
+     "nome": "HERTZ DIAS",
+     "votos": 293,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 474
+    },
+    {
+     "n": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "votos": 255,
+     "pct": 0.12,
+     "eleito": false,
+     "proj": 412
+    },
+    {
+     "n": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "votos": 141,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 228
+    }
+   ]
+  },
+  {
+   "uf": "ac",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:10",
+   "pst": 55.29,
+   "eleitorado": 613316,
+   "total": 264878,
+   "validos": 239532,
+   "brancos": 4865,
+   "nulos": 20481,
+   "fator": 1.8431,
+   "candidatos": [
+    {
+     "n": "11",
+     "nome": "MAILZA ASSIS",
+     "votos": 118532,
+     "pct": 49.48,
+     "eleito": false,
+     "proj": 218468
+    },
+    {
+     "n": "10",
+     "nome": "ALAN RICK",
+     "votos": 72466,
+     "pct": 30.25,
+     "eleito": false,
+     "proj": 133563
+    },
+    {
+     "n": "45",
+     "nome": "TIÃO BOCALOM",
+     "votos": 27338,
+     "pct": 11.41,
+     "eleito": false,
+     "proj": 50387
+    },
+    {
+     "n": "40",
+     "nome": "THOR DANTAS",
+     "votos": 20480,
+     "pct": 8.55,
+     "eleito": false,
+     "proj": 37747
+    },
+    {
+     "n": "21",
+     "nome": "EUDO RAFFAEL",
+     "votos": 457,
+     "pct": 0.19,
+     "eleito": false,
+     "proj": 842
+    },
+    {
+     "n": "36",
+     "nome": "DR.LUISINHO",
+     "votos": 259,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 477
+    }
+   ]
+  },
+  {
+   "uf": "al",
+   "race": "governador",
+   "gerado": "04/10/2026 18:20:41",
+   "pst": 9.48,
+   "eleitorado": 2439190,
+   "total": 157677,
+   "validos": 139728,
+   "brancos": 4199,
+   "nulos": 13750,
+   "fator": 12.3546,
+   "candidatos": [
+    {
+     "n": "15",
+     "nome": "RENAN FILHO",
+     "votos": 72132,
+     "pct": 51.62,
+     "eleito": false,
+     "proj": 891161
+    },
+    {
+     "n": "45",
+     "nome": "JHC",
+     "votos": 67046,
+     "pct": 47.98,
+     "eleito": false,
+     "proj": 828325
+    },
+    {
+     "n": "80",
+     "nome": "LENILDA LUNA",
+     "votos": 484,
+     "pct": 0.35,
+     "eleito": false,
+     "proj": 5980
+    },
+    {
+     "n": "35",
+     "nome": "MÁRCIO JAMBO",
+     "votos": 66,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 815
+    }
+   ]
+  },
+  {
+   "uf": "am",
+   "race": "governador",
+   "gerado": "04/10/2026 18:19:04",
+   "pst": 37.64,
+   "eleitorado": 2796053,
+   "total": 829978,
+   "validos": 770715,
+   "brancos": 22507,
+   "nulos": 36756,
+   "fator": 2.7404,
+   "candidatos": [
+    {
+     "n": "55",
+     "nome": "OMAR AZIZ",
+     "votos": 280509,
+     "pct": 36.4,
+     "eleito": false,
+     "proj": 768702
+    },
+    {
+     "n": "22",
+     "nome": "PROFESSORA MARIA DO CARMO",
+     "votos": 226218,
+     "pct": 29.35,
+     "eleito": false,
+     "proj": 619924
+    },
+    {
+     "n": "44",
+     "nome": "ROBERTO CIDADE",
+     "votos": 146476,
+     "pct": 19.01,
+     "eleito": false,
+     "proj": 401400
+    },
+    {
+     "n": "70",
+     "nome": "DAVID ALMEIDA",
+     "votos": 92588,
+     "pct": 12.01,
+     "eleito": false,
+     "proj": 253727
+    },
+    {
+     "n": "33",
+     "nome": "CABO DACIOLO",
+     "votos": 17661,
+     "pct": 2.29,
+     "eleito": false,
+     "proj": 48398
+    },
+    {
+     "n": "18",
+     "nome": "ISAEL MUNDURUKU",
+     "votos": 5762,
+     "pct": 0.75,
+     "eleito": false,
+     "proj": 15790
+    },
+    {
+     "n": "16",
+     "nome": "GILBERTO VASCONCELOS",
+     "votos": 1501,
+     "pct": 0.19,
+     "eleito": false,
+     "proj": 4113
+    }
+   ]
+  },
+  {
+   "uf": "ap",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:10",
+   "pst": 26.07,
+   "eleitorado": 576359,
+   "total": 101230,
+   "validos": 95233,
+   "brancos": 565,
+   "nulos": 5432,
+   "fator": 4.6248,
+   "candidatos": [
+    {
+     "n": "55",
+     "nome": "DR. FURLAN",
+     "votos": 56150,
+     "pct": 58.96,
+     "eleito": false,
+     "proj": 259684
+    },
+    {
+     "n": "44",
+     "nome": "CLÉCIO",
+     "votos": 38882,
+     "pct": 40.83,
+     "eleito": false,
+     "proj": 179822
+    },
+    {
+     "n": "16",
+     "nome": "CARLOS CLEY",
+     "votos": 96,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 444
+    },
+    {
+     "n": "27",
+     "nome": "DELEGADO MARCOS",
+     "votos": 53,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 245
+    },
+    {
+     "n": "29",
+     "nome": "JAIRO PALHETA",
+     "votos": 52,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 240
+    }
+   ]
+  },
+  {
+   "uf": "ba",
+   "race": "governador",
+   "gerado": "04/10/2026 18:20:11",
+   "pst": 11.24,
+   "eleitorado": 11304314,
+   "total": 933925,
+   "validos": 859674,
+   "brancos": 23137,
+   "nulos": 51114,
+   "fator": 9.7375,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "JERÔNIMO RODRIGUES",
+     "votos": 448846,
+     "pct": 52.21,
+     "eleito": false,
+     "proj": 4370650
+    },
+    {
+     "n": "44",
+     "nome": "ACM NETO",
+     "votos": 404589,
+     "pct": 47.06,
+     "eleito": false,
+     "proj": 3939696
+    },
+    {
+     "n": "50",
+     "nome": "RONALDO MANSUR",
+     "votos": 4648,
+     "pct": 0.54,
+     "eleito": false,
+     "proj": 45260
+    },
+    {
+     "n": "80",
+     "nome": "AROLDO FELIX",
+     "votos": 730,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 7108
+    },
+    {
+     "n": "29",
+     "nome": "MARIA BONA",
+     "votos": 532,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 5180
+    },
+    {
+     "n": "27",
+     "nome": "ARIEL CAPISTRANO",
+     "votos": 329,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 3204
+    }
+   ]
+  },
+  {
+   "uf": "ce",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:41",
+   "pst": 12.36,
+   "eleitorado": 6991044,
+   "total": 676314,
+   "validos": 628611,
+   "brancos": 15863,
+   "nulos": 31840,
+   "fator": 8.7341,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "ELMANO DE FREITAS",
+     "votos": 320620,
+     "pct": 51.0,
+     "eleito": false,
+     "proj": 2800320
+    },
+    {
+     "n": "45",
+     "nome": "CIRO GOMES",
+     "votos": 303619,
+     "pct": 48.3,
+     "eleito": false,
+     "proj": 2651832
+    },
+    {
+     "n": "14",
+     "nome": "DELEGADO HUGGO",
+     "votos": 2067,
+     "pct": 0.33,
+     "eleito": false,
+     "proj": 18053
+    },
+    {
+     "n": "30",
+     "nome": "VERA LÚCIA",
+     "votos": 986,
+     "pct": 0.16,
+     "eleito": false,
+     "proj": 8612
+    },
+    {
+     "n": "80",
+     "nome": "SERLEY LEAL",
+     "votos": 710,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 6201
+    },
+    {
+     "n": "16",
+     "nome": "ZÉ BATISTA",
+     "votos": 278,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 2428
+    },
+    {
+     "n": "35",
+     "nome": "DANILO SOARES",
+     "votos": 265,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 2315
+    },
+    {
+     "n": "29",
+     "nome": "IERI BRAGA",
+     "votos": 66,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 576
+    }
+   ]
+  },
+  {
+   "uf": "df",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:41",
+   "pst": 86.63,
+   "eleitorado": 2243988,
+   "total": 1556950,
+   "validos": 1416250,
+   "brancos": 63401,
+   "nulos": 75694,
+   "fator": 1.1698,
+   "candidatos": [
+    {
+     "n": "11",
+     "nome": "CELINA LEÃO",
+     "votos": 704764,
+     "pct": 49.71,
+     "eleito": false,
+     "proj": 824415
+    },
+    {
+     "n": "13",
+     "nome": "LEANDRO GRASS",
+     "votos": 491061,
+     "pct": 34.63,
+     "eleito": false,
+     "proj": 574431
+    },
+    {
+     "n": "45",
+     "nome": "PAULA BELMONTE",
+     "votos": 119825,
+     "pct": 8.45,
+     "eleito": false,
+     "proj": 140168
+    },
+    {
+     "n": "30",
+     "nome": "KIKO CAPUTO",
+     "votos": 63509,
+     "pct": 4.48,
+     "eleito": false,
+     "proj": 74291
+    },
+    {
+     "n": "40",
+     "nome": "CAPPELLI",
+     "votos": 31763,
+     "pct": 2.24,
+     "eleito": false,
+     "proj": 37156
+    },
+    {
+     "n": "80",
+     "nome": "PROFESSORA SAMARA MINEIRO",
+     "votos": 3424,
+     "pct": 0.24,
+     "eleito": false,
+     "proj": 4005
+    },
+    {
+     "n": "16",
+     "nome": "PROFESSOR ROBSON",
+     "votos": 1372,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 1605
+    },
+    {
+     "n": "36",
+     "nome": "ELISSON",
+     "votos": 1028,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 1203
+    },
+    {
+     "n": "28",
+     "nome": "RICO PINHEIRO",
+     "votos": 577,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 675
+    },
+    {
+     "n": "29",
+     "nome": "EXPEDITO MENDONÇA",
+     "votos": 532,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 622
+    }
+   ]
+  },
+  {
+   "uf": "es",
+   "race": "governador",
+   "gerado": "04/10/2026 18:20:11",
+   "pst": 53.85,
+   "eleitorado": 2987584,
+   "total": 1223700,
+   "validos": 1105445,
+   "brancos": 54316,
+   "nulos": 63939,
+   "fator": 1.9335,
+   "candidatos": [
+    {
+     "n": "10",
+     "nome": "LORENZO PAZOLINI",
+     "votos": 558555,
+     "pct": 50.53,
+     "eleito": false,
+     "proj": 1079942
+    },
+    {
+     "n": "15",
+     "nome": "RICARDO FERRAÇO",
+     "votos": 380204,
+     "pct": 34.39,
+     "eleito": false,
+     "proj": 735108
+    },
+    {
+     "n": "13",
+     "nome": "HELDER SALOMÃO",
+     "votos": 155849,
+     "pct": 14.1,
+     "eleito": false,
+     "proj": 301327
+    },
+    {
+     "n": "14",
+     "nome": "BRENO BARCELOS",
+     "votos": 9351,
+     "pct": 0.85,
+     "eleito": false,
+     "proj": 18080
+    },
+    {
+     "n": "80",
+     "nome": "RAFAEL DEMUNER",
+     "votos": 1486,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 2873
+    }
+   ]
+  },
+  {
+   "uf": "go",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:12",
+   "pst": 26.41,
+   "eleitorado": 5074870,
+   "total": 1004313,
+   "validos": 927505,
+   "brancos": 38178,
+   "nulos": 38630,
+   "fator": 3.9703,
+   "candidatos": [
+    {
+     "n": "15",
+     "nome": "DANIEL VILELA",
+     "votos": 531480,
+     "pct": 57.3,
+     "eleito": false,
+     "proj": 2110140
+    },
+    {
+     "n": "22",
+     "nome": "WILDER MORAIS",
+     "votos": 219004,
+     "pct": 23.61,
+     "eleito": false,
+     "proj": 869514
+    },
+    {
+     "n": "45",
+     "nome": "MARCONI PERILLO",
+     "votos": 88687,
+     "pct": 9.56,
+     "eleito": false,
+     "proj": 352115
+    },
+    {
+     "n": "13",
+     "nome": "LUIS CESAR BUENO",
+     "votos": 84718,
+     "pct": 9.13,
+     "eleito": false,
+     "proj": 336357
+    },
+    {
+     "n": "80",
+     "nome": "LUCIANA AMORIM",
+     "votos": 3339,
+     "pct": 0.36,
+     "eleito": false,
+     "proj": 13257
+    },
+    {
+     "n": "29",
+     "nome": "DANILO DA SILVA",
+     "votos": 277,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 1100
+    }
+   ]
+  },
+  {
+   "uf": "ma",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:12",
+   "pst": 20.31,
+   "eleitorado": 5180851,
+   "total": 776883,
+   "validos": 721869,
+   "brancos": 14957,
+   "nulos": 29034,
+   "fator": 5.4057,
+   "candidatos": [
+    {
+     "n": "55",
+     "nome": "EDUARDO BRAIDE",
+     "votos": 414311,
+     "pct": 56.53,
+     "eleito": false,
+     "proj": 2239637
+    },
+    {
+     "n": "15",
+     "nome": "ORLEANS BRANDÃO",
+     "votos": 236386,
+     "pct": 32.25,
+     "eleito": false,
+     "proj": 1277829
+    },
+    {
+     "n": "13",
+     "nome": "FELIPE CAMARÃO",
+     "votos": 68057,
+     "pct": 9.29,
+     "eleito": false,
+     "proj": 367895
+    },
+    {
+     "n": "28",
+     "nome": "ROBERTO ROCHA",
+     "votos": 11023,
+     "pct": 1.5,
+     "eleito": false,
+     "proj": 59587
+    },
+    {
+     "n": "14",
+     "nome": "ANDRÉ LUIS",
+     "votos": 1468,
+     "pct": 0.2,
+     "eleito": false,
+     "proj": 7936
+    },
+    {
+     "n": "16",
+     "nome": "SAULO ARCANGELI",
+     "votos": 1384,
+     "pct": 0.19,
+     "eleito": false,
+     "proj": 7481
+    },
+    {
+     "n": "21",
+     "nome": "REGINALDO LIMA",
+     "votos": 206,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 1114
+    },
+    {
+     "n": "29",
+     "nome": "DIMAS CASSIMIRO",
+     "votos": 57,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 308
+    }
+   ]
+  },
+  {
+   "uf": "mg",
+   "race": "governador",
+   "gerado": "04/10/2026 18:18:42",
+   "pst": 18.09,
+   "eleitorado": 16361188,
+   "total": 2360876,
+   "validos": 2161939,
+   "brancos": 106243,
+   "nulos": 92331,
+   "fator": 5.2985,
+   "candidatos": [
+    {
+     "n": "10",
+     "nome": "CLEITINHO AZEVEDO",
+     "votos": 1074917,
+     "pct": 49.71,
+     "eleito": false,
+     "proj": 5695489
+    },
+    {
+     "n": "13",
+     "nome": "PATRUS ANANIAS",
+     "votos": 598122,
+     "pct": 27.66,
+     "eleito": false,
+     "proj": 3169173
+    },
+    {
+     "n": "22",
+     "nome": "FLÁVIO ROSCOE",
+     "votos": 169830,
+     "pct": 7.85,
+     "eleito": false,
+     "proj": 899851
+    },
+    {
+     "n": "12",
+     "nome": "ALEXANDRE KALIL",
+     "votos": 121772,
+     "pct": 5.63,
+     "eleito": false,
+     "proj": 645214
+    },
+    {
+     "n": "55",
+     "nome": "MATEUS SIMÕES",
+     "votos": 99202,
+     "pct": 4.59,
+     "eleito": false,
+     "proj": 525626
+    },
+    {
+     "n": "15",
+     "nome": "GABRIEL",
+     "votos": 74596,
+     "pct": 3.45,
+     "eleito": false,
+     "proj": 395250
+    },
+    {
+     "n": "14",
+     "nome": "BEN MENDES",
+     "votos": 15984,
+     "pct": 0.74,
+     "eleito": false,
+     "proj": 84692
+    },
+    {
+     "n": "80",
+     "nome": "INDIRA XAVIER",
+     "votos": 4586,
+     "pct": 0.21,
+     "eleito": false,
+     "proj": 24299
+    },
+    {
+     "n": "21",
+     "nome": "PROFESSOR TÚLIO LOPES",
+     "votos": 2017,
+     "pct": 0.09,
+     "eleito": false,
+     "proj": 10687
+    },
+    {
+     "n": "16",
+     "nome": "RAFAEL DUDA",
+     "votos": 913,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 4838
+    },
+    {
+     "n": "29",
+     "nome": "HENRIQUE ÁREAS",
+     "votos": 363,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1923
+    }
+   ]
+  },
+  {
+   "uf": "ms",
+   "race": "governador",
+   "gerado": "04/10/2026 18:22:23",
+   "pst": 71.91,
+   "eleitorado": 2021869,
+   "total": 1105440,
+   "validos": 978889,
+   "brancos": 58313,
+   "nulos": 68238,
+   "fator": 1.3983,
+   "candidatos": [
+    {
+     "n": "11",
+     "nome": "EDUARDO RIEDEL",
+     "votos": 658147,
+     "pct": 67.23,
+     "eleito": false,
+     "proj": 920283
+    },
+    {
+     "n": "13",
+     "nome": "FÁBIO TRAD",
+     "votos": 225297,
+     "pct": 23.02,
+     "eleito": false,
+     "proj": 315031
+    },
+    {
+     "n": "30",
+     "nome": "JOÃO HENRIQUE CATAN",
+     "votos": 75190,
+     "pct": 7.68,
+     "eleito": false,
+     "proj": 105138
+    },
+    {
+     "n": "25",
+     "nome": "DELCIDIO AMARAL",
+     "votos": 10400,
+     "pct": 1.06,
+     "eleito": false,
+     "proj": 14542
+    },
+    {
+     "n": "27",
+     "nome": "ECONOMISTA RENATO GOMES",
+     "votos": 4297,
+     "pct": 0.44,
+     "eleito": false,
+     "proj": 6008
+    },
+    {
+     "n": "50",
+     "nome": "LUCIEN REZENDE",
+     "votos": 3364,
+     "pct": 0.34,
+     "eleito": false,
+     "proj": 4704
+    },
+    {
+     "n": "29",
+     "nome": "DANIEL LEMES",
+     "votos": 1566,
+     "pct": 0.16,
+     "eleito": false,
+     "proj": 2190
+    },
+    {
+     "n": "36",
+     "nome": "JEFERSON BEZERRA",
+     "votos": 628,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 878
+    }
+   ]
+  },
+  {
+   "uf": "mt",
+   "race": "governador",
+   "gerado": "04/10/2026 18:20:43",
+   "pst": 43.94,
+   "eleitorado": 2634992,
+   "total": 887357,
+   "validos": 807413,
+   "brancos": 34214,
+   "nulos": 45730,
+   "fator": 2.3431,
+   "candidatos": [
+    {
+     "n": "10",
+     "nome": "OTAVIANO PIVETTA",
+     "votos": 485557,
+     "pct": 60.14,
+     "eleito": false,
+     "proj": 1137711
+    },
+    {
+     "n": "22",
+     "nome": "WELLINGTON FAGUNDES",
+     "votos": 182783,
+     "pct": 22.64,
+     "eleito": false,
+     "proj": 428280
+    },
+    {
+     "n": "55",
+     "nome": "DOUTORA NATASHA",
+     "votos": 131233,
+     "pct": 16.25,
+     "eleito": false,
+     "proj": 307493
+    },
+    {
+     "n": "14",
+     "nome": "RAFAELL MILAS",
+     "votos": 4847,
+     "pct": 0.6,
+     "eleito": false,
+     "proj": 11357
+    },
+    {
+     "n": "36",
+     "nome": "SARGENTO LAUDICÉRIO",
+     "votos": 1708,
+     "pct": 0.21,
+     "eleito": false,
+     "proj": 4002
+    },
+    {
+     "n": "33",
+     "nome": "MAURICIO COELHO",
+     "votos": 1285,
+     "pct": 0.16,
+     "eleito": false,
+     "proj": 3011
+    }
+   ]
+  },
+  {
+   "uf": "pa",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:44",
+   "pst": 34.14,
+   "eleitorado": 6258162,
+   "total": 1723814,
+   "validos": 1569749,
+   "brancos": 36234,
+   "nulos": 116829,
+   "fator": 2.95,
+   "candidatos": [
+    {
+     "n": "20",
+     "nome": "DR. DANIEL",
+     "votos": 828202,
+     "pct": 52.73,
+     "eleito": false,
+     "proj": 2443160
+    },
+    {
+     "n": "15",
+     "nome": "HANA GHASSAN",
+     "votos": 688618,
+     "pct": 43.84,
+     "eleito": false,
+     "proj": 2031393
+    },
+    {
+     "n": "50",
+     "nome": "ARACELI",
+     "votos": 48461,
+     "pct": 3.09,
+     "eleito": false,
+     "proj": 142958
+    },
+    {
+     "n": "80",
+     "nome": "GAL LEITE",
+     "votos": 3018,
+     "pct": 0.19,
+     "eleito": false,
+     "proj": 8903
+    },
+    {
+     "n": "16",
+     "nome": "WELL MACEDO",
+     "votos": 1450,
+     "pct": 0.09,
+     "eleito": false,
+     "proj": 4277
+    },
+    {
+     "n": "35",
+     "nome": "RUTH REIS",
+     "votos": 1002,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 2956
+    }
+   ]
+  },
+  {
+   "uf": "pb",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:51",
+   "pst": 60.06,
+   "eleitorado": 3241966,
+   "total": 1553902,
+   "validos": 1333694,
+   "brancos": 72660,
+   "nulos": 147548,
+   "fator": 1.7253,
+   "candidatos": [
+    {
+     "n": "11",
+     "nome": "LUCAS RIBEIRO",
+     "votos": 862506,
+     "pct": 64.67,
+     "eleito": false,
+     "proj": 1488041
+    },
+    {
+     "n": "22",
+     "nome": "EFRAIM FILHO",
+     "votos": 324154,
+     "pct": 24.3,
+     "eleito": false,
+     "proj": 559248
+    },
+    {
+     "n": "15",
+     "nome": "CÍCERO LUCENA",
+     "votos": 140369,
+     "pct": 10.52,
+     "eleito": false,
+     "proj": 242172
+    },
+    {
+     "n": "80",
+     "nome": "YURI EZEQUIEL",
+     "votos": 5211,
+     "pct": 0.39,
+     "eleito": false,
+     "proj": 8990
+    },
+    {
+     "n": "29",
+     "nome": "CAMILO DUARTE",
+     "votos": 1454,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 2509
+    }
+   ]
+  },
+  {
+   "uf": "pe",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:51",
+   "pst": 15.78,
+   "eleitorado": 7216989,
+   "total": 816860,
+   "validos": 738314,
+   "brancos": 20268,
+   "nulos": 58278,
+   "fator": 7.3131,
+   "candidatos": [
+    {
+     "n": "55",
+     "nome": "RAQUEL LYRA",
+     "votos": 392013,
+     "pct": 53.1,
+     "eleito": false,
+     "proj": 2866844
+    },
+    {
+     "n": "40",
+     "nome": "JOÃO CAMPOS",
+     "votos": 326343,
+     "pct": 44.2,
+     "eleito": false,
+     "proj": 2386590
+    },
+    {
+     "n": "50",
+     "nome": "IVAN MORAES",
+     "votos": 16355,
+     "pct": 2.22,
+     "eleito": false,
+     "proj": 119606
+    },
+    {
+     "n": "14",
+     "nome": "RENAN",
+     "votos": 2758,
+     "pct": 0.37,
+     "eleito": false,
+     "proj": 20170
+    },
+    {
+     "n": "80",
+     "nome": "PROFESSORA CAMILA",
+     "votos": 585,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 4278
+    },
+    {
+     "n": "16",
+     "nome": "GUILHERME FONSECA",
+     "votos": 180,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1316
+    },
+    {
+     "n": "29",
+     "nome": "VICTOR ASSIS",
+     "votos": 80,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 585
+    }
+   ]
+  },
+  {
+   "uf": "pi",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:21",
+   "pst": 31.16,
+   "eleitorado": 2703064,
+   "total": 683864,
+   "validos": 615973,
+   "brancos": 24298,
+   "nulos": 41742,
+   "fator": 3.2573,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "RAFAEL FONTELES",
+     "votos": 421420,
+     "pct": 68.21,
+     "eleito": false,
+     "proj": 1372685
+    },
+    {
+     "n": "11",
+     "nome": "JOEL RODRIGUES",
+     "votos": 184290,
+     "pct": 29.83,
+     "eleito": false,
+     "proj": 600285
+    },
+    {
+     "n": "50",
+     "nome": "PROFESSOR GISVALDO",
+     "votos": 3925,
+     "pct": 0.64,
+     "eleito": false,
+     "proj": 12785
+    },
+    {
+     "n": "45",
+     "nome": "DRA. LÚCIA SANTOS",
+     "votos": 3673,
+     "pct": 0.59,
+     "eleito": false,
+     "proj": 11964
+    },
+    {
+     "n": "30",
+     "nome": "ELIZEU AGUIAR",
+     "votos": 1963,
+     "pct": 0.32,
+     "eleito": false,
+     "proj": 6394
+    },
+    {
+     "n": "16",
+     "nome": "GERALDO CARVALHO",
+     "votos": 744,
+     "pct": 0.12,
+     "eleito": false,
+     "proj": 2423
+    },
+    {
+     "n": "80",
+     "nome": "SANTIAGO BELIZÁRIO",
+     "votos": 702,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 2287
+    },
+    {
+     "n": "29",
+     "nome": "LOURDES MELO",
+     "votos": 450,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 1466
+    },
+    {
+     "n": "27",
+     "nome": "PROFESSOR JURITY",
+     "votos": 374,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 1218
+    },
+    {
+     "n": "35",
+     "nome": "RAVENNA DA INCLUSÃO",
+     "votos": 283,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 922
+    }
+   ]
+  },
+  {
+   "uf": "pr",
+   "race": "governador",
+   "gerado": "04/10/2026 18:20:16",
+   "pst": 60.24,
+   "eleitorado": 8600624,
+   "total": 4099614,
+   "validos": 3761019,
+   "brancos": 159433,
+   "nulos": 178229,
+   "fator": 1.6691,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "SERGIO MORO",
+     "votos": 1897589,
+     "pct": 50.44,
+     "eleito": false,
+     "proj": 3167212
+    },
+    {
+     "n": "55",
+     "nome": "SANDRO ALEX",
+     "votos": 941232,
+     "pct": 25.02,
+     "eleito": false,
+     "proj": 1570984
+    },
+    {
+     "n": "12",
+     "nome": "REQUIÃO FILHO",
+     "votos": 881802,
+     "pct": 23.44,
+     "eleito": false,
+     "proj": 1471791
+    },
+    {
+     "n": "14",
+     "nome": "LUIZ FRANÇA",
+     "votos": 27261,
+     "pct": 0.72,
+     "eleito": false,
+     "proj": 45501
+    },
+    {
+     "n": "80",
+     "nome": "TAYNÁ MIESSA",
+     "votos": 9166,
+     "pct": 0.24,
+     "eleito": false,
+     "proj": 15299
+    },
+    {
+     "n": "33",
+     "nome": "DOUTOR ALEXANDRE SALOMÃO",
+     "votos": 2646,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 4416
+    },
+    {
+     "n": "16",
+     "nome": "SAMUEL DE MATTOS",
+     "votos": 1323,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 2208
+    },
+    {
+     "n": "29",
+     "nome": "ADRIANO FUNILEIRO",
+     "votos": 933,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1557
+    }
+   ]
+  },
+  {
+   "uf": "rj",
+   "race": "governador",
+   "gerado": "04/10/2026 18:18:42",
+   "pst": 6.13,
+   "eleitorado": 12842517,
+   "total": 528073,
+   "validos": 453566,
+   "brancos": 23877,
+   "nulos": 33971,
+   "fator": 18.7837,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "DOUGLAS RUAS",
+     "votos": 229037,
+     "pct": 48.71,
+     "eleito": false,
+     "proj": 4302165
+    },
+    {
+     "n": "55",
+     "nome": "EDUARDO PAES",
+     "votos": 200112,
+     "pct": 42.56,
+     "eleito": false,
+     "proj": 3758846
+    },
+    {
+     "n": "10",
+     "nome": "GAROTINHO",
+     "votos": 16659,
+     "pct": 3.54,
+     "eleito": false,
+     "proj": 312918
+    },
+    {
+     "n": "50",
+     "nome": "WILLIAM SIRI",
+     "votos": 14392,
+     "pct": 3.06,
+     "eleito": false,
+     "proj": 270335
+    },
+    {
+     "n": "14",
+     "nome": "CORONEL BUSNELLO",
+     "votos": 4608,
+     "pct": 0.98,
+     "eleito": false,
+     "proj": 86555
+    },
+    {
+     "n": "30",
+     "nome": "ANDRÉ MARINHO",
+     "votos": 2662,
+     "pct": 0.57,
+     "eleito": false,
+     "proj": 50002
+    },
+    {
+     "n": "80",
+     "nome": "JULIETE",
+     "votos": 1817,
+     "pct": 0.39,
+     "eleito": false,
+     "proj": 34130
+    },
+    {
+     "n": "16",
+     "nome": "CYRO GARCIA",
+     "votos": 786,
+     "pct": 0.17,
+     "eleito": false,
+     "proj": 14764
+    },
+    {
+     "n": "29",
+     "nome": "LUAN MONTEIRO",
+     "votos": 152,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 2855
+    }
+   ]
+  },
+  {
+   "uf": "rn",
+   "race": "governador",
+   "gerado": "04/10/2026 18:20:44",
+   "pst": 22.96,
+   "eleitorado": 2656207,
+   "total": 454131,
+   "validos": 416301,
+   "brancos": 15531,
+   "nulos": 22249,
+   "fator": 4.8101,
+   "candidatos": [
+    {
+     "n": "13",
+     "nome": "CADU DE LULA",
+     "votos": 155765,
+     "pct": 37.41,
+     "eleito": false,
+     "proj": 749247
+    },
+    {
+     "n": "44",
+     "nome": "ALLYSON",
+     "votos": 141698,
+     "pct": 34.03,
+     "eleito": false,
+     "proj": 681583
+    },
+    {
+     "n": "22",
+     "nome": "ÁLVARO DIAS",
+     "votos": 118106,
+     "pct": 28.37,
+     "eleito": false,
+     "proj": 568103
+    },
+    {
+     "n": "16",
+     "nome": "DÁRIO BARBOSA",
+     "votos": 287,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 1381
+    },
+    {
+     "n": "80",
+     "nome": "ARINALDA DO MLB",
+     "votos": 269,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 1294
+    },
+    {
+     "n": "27",
+     "nome": "GODEIRO LINHARESS",
+     "votos": 95,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 457
+    },
+    {
+     "n": "36",
+     "nome": "RODRIGO DE BOLSONARO",
+     "votos": 81,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 390
+    },
+    {
+     "n": "29",
+     "nome": "HENRIQUE LYRA",
+     "votos": 50,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 241
+    }
+   ]
+  },
+  {
+   "uf": "ro",
+   "race": "governador",
+   "gerado": "04/10/2026 18:20:45",
+   "pst": 50.7,
+   "eleitorado": 1265008,
+   "total": 506001,
+   "validos": 481018,
+   "brancos": 13012,
+   "nulos": 11971,
+   "fator": 1.9767,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "MARCOS ROGÉRIO",
+     "votos": 262223,
+     "pct": 54.51,
+     "eleito": false,
+     "proj": 518337
+    },
+    {
+     "n": "44",
+     "nome": "HILDON CHAVES",
+     "votos": 99388,
+     "pct": 20.66,
+     "eleito": false,
+     "proj": 196460
+    },
+    {
+     "n": "55",
+     "nome": "ADAILTON FURIA",
+     "votos": 70589,
+     "pct": 14.67,
+     "eleito": false,
+     "proj": 139533
+    },
+    {
+     "n": "13",
+     "nome": "EXPEDITO NETTO",
+     "votos": 40263,
+     "pct": 8.37,
+     "eleito": false,
+     "proj": 79588
+    },
+    {
+     "n": "15",
+     "nome": "PEDRO ABIB",
+     "votos": 5065,
+     "pct": 1.05,
+     "eleito": false,
+     "proj": 10012
+    },
+    {
+     "n": "40",
+     "nome": "SAMUEL COSTA",
+     "votos": 3490,
+     "pct": 0.73,
+     "eleito": false,
+     "proj": 6899
+    }
+   ]
+  },
+  {
+   "uf": "rr",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:20",
+   "pst": 19.35,
+   "eleitorado": 400603,
+   "total": 58497,
+   "validos": 56185,
+   "brancos": 457,
+   "nulos": 1850,
+   "fator": 5.7214,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "ARTHUR HENRIQUE",
+     "votos": 36359,
+     "pct": 64.71,
+     "eleito": false,
+     "proj": 208025
+    },
+    {
+     "n": "10",
+     "nome": "SOLDADO SAMPAIO",
+     "votos": 19249,
+     "pct": 34.26,
+     "eleito": false,
+     "proj": 110132
+    },
+    {
+     "n": "50",
+     "nome": "ROSI AIRES",
+     "votos": 545,
+     "pct": 0.97,
+     "eleito": false,
+     "proj": 3118
+    },
+    {
+     "n": "77",
+     "nome": "FARAH MESQUITA",
+     "votos": 32,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 183
+    },
+    {
+     "n": "29",
+     "nome": "CLÉBIO GENUÍNO",
+     "votos": 5,
+     "pct": 0.01,
+     "eleito": false,
+     "proj": 29
+    }
+   ]
+  },
+  {
+   "uf": "rs",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:21",
+   "pst": 41.04,
+   "eleitorado": 8516465,
+   "total": 2727619,
+   "validos": 2475951,
+   "brancos": 126237,
+   "nulos": 124594,
+   "fator": 2.4673,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "ZUCCO",
+     "votos": 1471112,
+     "pct": 59.4,
+     "eleito": false,
+     "proj": 3629643
+    },
+    {
+     "n": "12",
+     "nome": "JULIANA BRIZOLA",
+     "votos": 756219,
+     "pct": 30.53,
+     "eleito": false,
+     "proj": 1865803
+    },
+    {
+     "n": "15",
+     "nome": "GABRIEL SOUZA",
+     "votos": 207770,
+     "pct": 8.39,
+     "eleito": false,
+     "proj": 512626
+    },
+    {
+     "n": "45",
+     "nome": "MARCELO MARANATA",
+     "votos": 37407,
+     "pct": 1.51,
+     "eleito": false,
+     "proj": 92293
+    },
+    {
+     "n": "80",
+     "nome": "PRISCILA VOIGT",
+     "votos": 2126,
+     "pct": 0.09,
+     "eleito": false,
+     "proj": 5245
+    },
+    {
+     "n": "16",
+     "nome": "REJANE DE OLIVEIRA",
+     "votos": 1317,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 3249
+    },
+    {
+     "n": "29",
+     "nome": "CESAR PONTES",
+     "votos": 837,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 2065
+    }
+   ]
+  },
+  {
+   "uf": "sc",
+   "race": "governador",
+   "gerado": "04/10/2026 18:21:55",
+   "pst": 20.28,
+   "eleitorado": 5719541,
+   "total": 913515,
+   "validos": 844189,
+   "brancos": 30856,
+   "nulos": 38470,
+   "fator": 5.08,
+   "candidatos": [
+    {
+     "n": "22",
+     "nome": "JORGINHO MELLO",
+     "votos": 539859,
+     "pct": 63.95,
+     "eleito": false,
+     "proj": 2742466
+    },
+    {
+     "n": "40",
+     "nome": "GELSON MERÍSIO",
+     "votos": 156773,
+     "pct": 18.57,
+     "eleito": false,
+     "proj": 796402
+    },
+    {
+     "n": "55",
+     "nome": "JOÃO RODRIGUES",
+     "votos": 129485,
+     "pct": 15.34,
+     "eleito": false,
+     "proj": 657780
+    },
+    {
+     "n": "14",
+     "nome": "MARCELO BRIGADEIRO",
+     "votos": 8685,
+     "pct": 1.03,
+     "eleito": false,
+     "proj": 44120
+    },
+    {
+     "n": "80",
+     "nome": "LAÍS CHAUD",
+     "votos": 5063,
+     "pct": 0.6,
+     "eleito": false,
+     "proj": 25720
+    },
+    {
+     "n": "25",
+     "nome": "RALF ZIMMER",
+     "votos": 2311,
+     "pct": 0.27,
+     "eleito": false,
+     "proj": 11740
+    },
+    {
+     "n": "16",
+     "nome": "PROFESSOR MARCUS SODRÉ",
+     "votos": 1450,
+     "pct": 0.17,
+     "eleito": false,
+     "proj": 7366
+    },
+    {
+     "n": "29",
+     "nome": "BRUNO PEDREIRO DO PCO",
+     "votos": 563,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 2860
+    }
+   ]
+  },
+  {
+   "uf": "se",
+   "race": "governador",
+   "gerado": "04/10/2026 18:23:01",
+   "pst": 21.7,
+   "eleitorado": 1737460,
+   "total": 292266,
+   "validos": 243518,
+   "brancos": 10201,
+   "nulos": 27624,
+   "fator": 4.9515,
+   "candidatos": [
+    {
+     "n": "55",
+     "nome": "FÁBIO",
+     "votos": 149448,
+     "pct": 58.74,
+     "eleito": false,
+     "proj": 739995
+    },
+    {
+     "n": "10",
+     "nome": "VALMIR DE FRANCISQUINHO",
+     "votos": 93416,
+     "pct": 36.71,
+     "eleito": false,
+     "proj": 462552
+    },
+    {
+     "n": "50",
+     "nome": "DR. HELTON",
+     "votos": 10923,
+     "pct": 4.29,
+     "eleito": false,
+     "proj": 54085
+    },
+    {
+     "n": "27",
+     "nome": "TATY  CRISTINA DE JESUS",
+     "votos": 654,
+     "pct": 0.26,
+     "eleito": false,
+     "proj": 3238
+    }
+   ]
+  },
+  {
+   "uf": "sp",
+   "race": "governador",
+   "gerado": "04/10/2026 18:20:41",
+   "pst": 12.22,
+   "eleitorado": 34081699,
+   "total": 3063551,
+   "validos": 2699253,
+   "brancos": 152417,
+   "nulos": 211881,
+   "fator": 8.6615,
+   "candidatos": [
+    {
+     "n": "10",
+     "nome": "TARCÍSIO",
+     "votos": 1819507,
+     "pct": 67.41,
+     "eleito": false,
+     "proj": 15759622
+    },
+    {
+     "n": "13",
+     "nome": "FERNANDO HADDAD",
+     "votos": 858171,
+     "pct": 31.79,
+     "eleito": false,
+     "proj": 7433030
+    },
+    {
+     "n": "80",
+     "nome": "VIVIAN MENDES",
+     "votos": 7833,
+     "pct": 0.29,
+     "eleito": false,
+     "proj": 67845
+    },
+    {
+     "n": "16",
+     "nome": "VERA LÚCIA",
+     "votos": 7490,
+     "pct": 0.28,
+     "eleito": false,
+     "proj": 64874
+    },
+    {
+     "n": "21",
+     "nome": "CARLOS MACHADO",
+     "votos": 6252,
+     "pct": 0.23,
+     "eleito": false,
+     "proj": 54152
+    }
+   ]
+  },
+  {
+   "uf": "to",
+   "race": "governador",
+   "gerado": "04/10/2026 18:22:21",
+   "pst": 74.2,
+   "eleitorado": 1180433,
+   "total": 701541,
+   "validos": 620579,
+   "brancos": 18921,
+   "nulos": 62041,
+   "fator": 1.3742,
+   "candidatos": [
+    {
+     "n": "44",
+     "nome": "PROFESSORA DORINHA",
+     "votos": 285852,
+     "pct": 46.06,
+     "eleito": false,
+     "proj": 392819
+    },
+    {
+     "n": "45",
+     "nome": "VICENTINHO JÚNIOR",
+     "votos": 268462,
+     "pct": 43.26,
+     "eleito": false,
+     "proj": 368922
+    },
+    {
+     "n": "55",
+     "nome": "LAUREZ MOREIRA",
+     "votos": 51526,
+     "pct": 8.3,
+     "eleito": false,
+     "proj": 70807
+    },
+    {
+     "n": "30",
+     "nome": "ATAIDES DE OLIVEIRA",
+     "votos": 9816,
+     "pct": 1.58,
+     "eleito": false,
+     "proj": 13489
+    },
+    {
+     "n": "50",
+     "nome": "PROF WITER NAVES",
+     "votos": 3991,
+     "pct": 0.64,
+     "eleito": false,
+     "proj": 5484
+    },
+    {
+     "n": "27",
+     "nome": "DU PEREIRA",
+     "votos": 932,
+     "pct": 0.15,
+     "eleito": false,
+     "proj": 1281
+    }
+   ]
+  },
+  {
+   "uf": "ac",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:10",
+   "pst": 55.29,
+   "eleitorado": 613316,
+   "total": 529756,
+   "validos": 399240,
+   "brancos": 21525,
+   "nulos": 32136,
+   "fator": 1.8431,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "MARCIO BITTAR",
+     "votos": 119083,
+     "pct": 25.01,
+     "eleito": false,
+     "proj": 219483
+    },
+    {
+     "n": "100",
+     "nome": "MARA ROCHA",
+     "votos": 87817,
+     "pct": 18.45,
+     "eleito": false,
+     "proj": 161857
+    },
+    {
+     "n": "111",
+     "nome": "GLADSON CAMELÍ",
+     "votos": 76855,
+     "pct": 16.14,
+     "eleito": false,
+     "proj": 141652
+    },
+    {
+     "n": "131",
+     "nome": "JORGE VIANA",
+     "votos": 67664,
+     "pct": 14.21,
+     "eleito": false,
+     "proj": 124712
+    },
+    {
+     "n": "777",
+     "nome": "EDUARDO VELLOSO",
+     "votos": 51764,
+     "pct": 10.87,
+     "eleito": false,
+     "proj": 95407
+    },
+    {
+     "n": "555",
+     "nome": "PETECÃO",
+     "votos": 51553,
+     "pct": 10.83,
+     "eleito": false,
+     "proj": 95018
+    },
+    {
+     "n": "500",
+     "nome": "PROFESSOR INACIO MOREIRA",
+     "votos": 12375,
+     "pct": 2.6,
+     "eleito": false,
+     "proj": 22809
+    },
+    {
+     "n": "277",
+     "nome": "DR. JUNIOR FEITOSA",
+     "votos": 8984,
+     "pct": 1.89,
+     "eleito": false,
+     "proj": 16559
+    }
+   ]
+  },
+  {
+   "uf": "al",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:40",
+   "pst": 9.48,
+   "eleitorado": 2439190,
+   "total": 315354,
+   "validos": 269375,
+   "brancos": 16686,
+   "nulos": 29293,
+   "fator": 12.3546,
+   "candidatos": [
+    {
+     "n": "111",
+     "nome": "ARTHUR LIRA",
+     "votos": 85034,
+     "pct": 31.57,
+     "eleito": false,
+     "proj": 1050560
+    },
+    {
+     "n": "456",
+     "nome": "MARINA JHC",
+     "votos": 70603,
+     "pct": 26.21,
+     "eleito": false,
+     "proj": 872271
+    },
+    {
+     "n": "151",
+     "nome": "RENAN",
+     "votos": 64755,
+     "pct": 24.04,
+     "eleito": false,
+     "proj": 800021
+    },
+    {
+     "n": "156",
+     "nome": "DR. WANDERLEY",
+     "votos": 26828,
+     "pct": 9.96,
+     "eleito": false,
+     "proj": 331449
+    },
+    {
+     "n": "100",
+     "nome": "DAVI DAVINO FILHO",
+     "votos": 20191,
+     "pct": 7.5,
+     "eleito": false,
+     "proj": 249451
+    },
+    {
+     "n": "800",
+     "nome": "ALEXANDRE FLEMING",
+     "votos": 1807,
+     "pct": 0.67,
+     "eleito": false,
+     "proj": 22325
+    },
+    {
+     "n": "355",
+     "nome": "MARIEDSON",
+     "votos": 157,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 1940
+    }
+   ]
+  },
+  {
+   "uf": "am",
+   "race": "senador",
+   "gerado": "04/10/2026 18:19:03",
+   "pst": 37.64,
+   "eleitorado": 2796053,
+   "total": 1659956,
+   "validos": 1404630,
+   "brancos": 104986,
+   "nulos": 150340,
+   "fator": 2.7404,
+   "candidatos": [
+    {
+     "n": "155",
+     "nome": "EDUARDO BRAGA",
+     "votos": 409423,
+     "pct": 29.15,
+     "eleito": false,
+     "proj": 1121975
+    },
+    {
+     "n": "222",
+     "nome": "CAPITÃO ALBERTO NETO",
+     "votos": 373265,
+     "pct": 26.57,
+     "eleito": false,
+     "proj": 1022889
+    },
+    {
+     "n": "455",
+     "nome": "PLINIO VALÉRIO",
+     "votos": 345677,
+     "pct": 24.61,
+     "eleito": false,
+     "proj": 947287
+    },
+    {
+     "n": "444",
+     "nome": "WILSON LIMA",
+     "votos": 138012,
+     "pct": 9.83,
+     "eleito": false,
+     "proj": 378206
+    },
+    {
+     "n": "500",
+     "nome": "PROFESSORA EVANY",
+     "votos": 105648,
+     "pct": 7.52,
+     "eleito": false,
+     "proj": 289516
+    },
+    {
+     "n": "333",
+     "nome": "XUXA DO AMAZONAS",
+     "votos": 23614,
+     "pct": 1.68,
+     "eleito": false,
+     "proj": 64711
+    },
+    {
+     "n": "277",
+     "nome": "DAILSON CORRÊA",
+     "votos": 6508,
+     "pct": 0.46,
+     "eleito": false,
+     "proj": 17834
+    },
+    {
+     "n": "161",
+     "nome": "EVANDRO DE OLIVEIRA",
+     "votos": 2483,
+     "pct": 0.18,
+     "eleito": false,
+     "proj": 6804
+    }
+   ]
+  },
+  {
+   "uf": "ap",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:10",
+   "pst": 26.07,
+   "eleitorado": 576359,
+   "total": 202460,
+   "validos": 188342,
+   "brancos": 4189,
+   "nulos": 9929,
+   "fator": 4.6248,
+   "candidatos": [
+    {
+     "n": "200",
+     "nome": "RAYSSA FURLAN",
+     "votos": 52196,
+     "pct": 27.71,
+     "eleito": false,
+     "proj": 241397
+    },
+    {
+     "n": "555",
+     "nome": "LUCAS BARRETO",
+     "votos": 42664,
+     "pct": 22.65,
+     "eleito": false,
+     "proj": 197313
+    },
+    {
+     "n": "130",
+     "nome": "RANDOLFE",
+     "votos": 38769,
+     "pct": 20.58,
+     "eleito": false,
+     "proj": 179300
+    },
+    {
+     "n": "151",
+     "nome": "ACÁCIO FAVACHO",
+     "votos": 30067,
+     "pct": 15.96,
+     "eleito": false,
+     "proj": 139054
+    },
+    {
+     "n": "444",
+     "nome": "ALLINY SERRÃO",
+     "votos": 19708,
+     "pct": 10.46,
+     "eleito": false,
+     "proj": 91146
+    },
+    {
+     "n": "401",
+     "nome": "CAPI",
+     "votos": 4078,
+     "pct": 2.17,
+     "eleito": false,
+     "proj": 18860
+    },
+    {
+     "n": "277",
+     "nome": "JUÍZA JÔ",
+     "votos": 444,
+     "pct": 0.24,
+     "eleito": false,
+     "proj": 2053
+    },
+    {
+     "n": "272",
+     "nome": "PROFESSOR UZIAN PINTO",
+     "votos": 261,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 1207
+    },
+    {
+     "n": "290",
+     "nome": "HELIO SILVA",
+     "votos": 155,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 717
+    }
+   ]
+  },
+  {
+   "uf": "ba",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:11",
+   "pst": 11.24,
+   "eleitorado": 11304314,
+   "total": 1867850,
+   "validos": 1494615,
+   "brancos": 131939,
+   "nulos": 241296,
+   "fator": 9.7375,
+   "candidatos": [
+    {
+     "n": "133",
+     "nome": "RUI COSTA",
+     "votos": 427848,
+     "pct": 28.63,
+     "eleito": false,
+     "proj": 4166181
+    },
+    {
+     "n": "130",
+     "nome": "JAQUES WAGNER",
+     "votos": 389762,
+     "pct": 26.08,
+     "eleito": false,
+     "proj": 3795318
+    },
+    {
+     "n": "222",
+     "nome": "JOÃO ROMA",
+     "votos": 313454,
+     "pct": 20.97,
+     "eleito": false,
+     "proj": 3052267
+    },
+    {
+     "n": "100",
+     "nome": "ANGELO CORONEL",
+     "votos": 313205,
+     "pct": 20.96,
+     "eleito": false,
+     "proj": 3049842
+    },
+    {
+     "n": "500",
+     "nome": "PROFESSORA DELLIANA",
+     "votos": 35351,
+     "pct": 2.37,
+     "eleito": false,
+     "proj": 344231
+    },
+    {
+     "n": "180",
+     "nome": "MARCELO CARVALHO",
+     "votos": 8032,
+     "pct": 0.54,
+     "eleito": false,
+     "proj": 78212
+    },
+    {
+     "n": "333",
+     "nome": "CARLOS SODRÉ",
+     "votos": 2565,
+     "pct": 0.17,
+     "eleito": false,
+     "proj": 24977
+    },
+    {
+     "n": "800",
+     "nome": "GREGORIO GOULD",
+     "votos": 1899,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 18492
+    },
+    {
+     "n": "277",
+     "nome": "MARCELO SANTTANA",
+     "votos": 1716,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 16710
+    },
+    {
+     "n": "290",
+     "nome": "MARCELO MILLET",
+     "votos": 783,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 7624
+    }
+   ]
+  },
+  {
+   "uf": "ce",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:41",
+   "pst": 12.36,
+   "eleitorado": 6991044,
+   "total": 1352628,
+   "validos": 1141139,
+   "brancos": 86168,
+   "nulos": 124887,
+   "fator": 8.7341,
+   "candidatos": [
+    {
+     "n": "400",
+     "nome": "CID GOMES",
+     "votos": 342567,
+     "pct": 30.01,
+     "eleito": false,
+     "proj": 2992007
+    },
+    {
+     "n": "180",
+     "nome": "LUIZIANNE",
+     "votos": 321779,
+     "pct": 28.19,
+     "eleito": false,
+     "proj": 2810443
+    },
+    {
+     "n": "445",
+     "nome": "CAPITÃO WAGNER",
+     "votos": 245346,
+     "pct": 21.49,
+     "eleito": false,
+     "proj": 2142871
+    },
+    {
+     "n": "222",
+     "nome": "ALCIDES FERNANDES",
+     "votos": 218955,
+     "pct": 19.18,
+     "eleito": false,
+     "proj": 1912370
+    },
+    {
+     "n": "800",
+     "nome": "CATARINA MATOS",
+     "votos": 6367,
+     "pct": 0.56,
+     "eleito": false,
+     "proj": 55610
+    },
+    {
+     "n": "300",
+     "nome": "GUILHERME THEOPHILO",
+     "votos": 4998,
+     "pct": 0.44,
+     "eleito": false,
+     "proj": 43653
+    },
+    {
+     "n": "162",
+     "nome": "REGINALDO",
+     "votos": 1127,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 9843
+    },
+    {
+     "n": "290",
+     "nome": "LINO ALVES",
+     "votos": 434,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 3791
+    }
+   ]
+  },
+  {
+   "uf": "df",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:41",
+   "pst": 86.63,
+   "eleitorado": 2243988,
+   "total": 3113900,
+   "validos": 2769127,
+   "brancos": 169271,
+   "nulos": 171800,
+   "fator": 1.1698,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "MICHELLE BOLSONARO",
+     "votos": 801334,
+     "pct": 28.9,
+     "eleito": false,
+     "proj": 937381
+    },
+    {
+     "n": "223",
+     "nome": "BIA KICIS",
+     "votos": 758826,
+     "pct": 27.37,
+     "eleito": false,
+     "proj": 887656
+    },
+    {
+     "n": "123",
+     "nome": "LEILA DO VÔLEI",
+     "votos": 591523,
+     "pct": 21.33,
+     "eleito": false,
+     "proj": 691949
+    },
+    {
+     "n": "131",
+     "nome": "ERIKA KOKAY",
+     "votos": 526873,
+     "pct": 19.0,
+     "eleito": false,
+     "proj": 616323
+    },
+    {
+     "n": "300",
+     "nome": "SEBASTIÃO COELHO",
+     "votos": 59108,
+     "pct": 2.13,
+     "eleito": false,
+     "proj": 69143
+    },
+    {
+     "n": "800",
+     "nome": "PROFESSOR GUILHERME AMORIM",
+     "votos": 12723,
+     "pct": 0.46,
+     "eleito": false,
+     "proj": 14883
+    },
+    {
+     "n": "456",
+     "nome": "GUTO FELÍCIO DOS SANTOS",
+     "votos": 8328,
+     "pct": 0.3,
+     "eleito": false,
+     "proj": 9742
+    },
+    {
+     "n": "700",
+     "nome": "MARLEY",
+     "votos": 5559,
+     "pct": 0.2,
+     "eleito": false,
+     "proj": 6503
+    },
+    {
+     "n": "360",
+     "nome": "TIAGO",
+     "votos": 3702,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 4331
+    },
+    {
+     "n": "161",
+     "nome": "ZANATA",
+     "votos": 3111,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 3639
+    },
+    {
+     "n": "290",
+     "nome": "DAVID HORN",
+     "votos": 1742,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 2038
+    }
+   ]
+  },
+  {
+   "uf": "es",
+   "race": "senador",
+   "gerado": "04/10/2026 18:22:23",
+   "pst": 57.64,
+   "eleitorado": 2987584,
+   "total": 2622006,
+   "validos": 2269087,
+   "brancos": 167635,
+   "nulos": 185284,
+   "fator": 1.8041,
+   "candidatos": [
+    {
+     "n": "100",
+     "nome": "EVAIR DE MELO",
+     "votos": 576919,
+     "pct": 25.43,
+     "eleito": false,
+     "proj": 1040799
+    },
+    {
+     "n": "400",
+     "nome": "RENATO CASAGRANDE",
+     "votos": 547114,
+     "pct": 24.11,
+     "eleito": false,
+     "proj": 987029
+    },
+    {
+     "n": "222",
+     "nome": "MAGUINHA MALTA",
+     "votos": 431351,
+     "pct": 19.01,
+     "eleito": false,
+     "proj": 778185
+    },
+    {
+     "n": "133",
+     "nome": "FABIANO CONTARATO",
+     "votos": 286239,
+     "pct": 12.61,
+     "eleito": false,
+     "proj": 516393
+    },
+    {
+     "n": "556",
+     "nome": "SERGIO MENEGUELLI",
+     "votos": 166007,
+     "pct": 7.32,
+     "eleito": false,
+     "proj": 299487
+    },
+    {
+     "n": "700",
+     "nome": "MARCOS DO VAL",
+     "votos": 97616,
+     "pct": 4.3,
+     "eleito": false,
+     "proj": 176106
+    },
+    {
+     "n": "156",
+     "nome": "ROSE DE FREITAS",
+     "votos": 84807,
+     "pct": 3.74,
+     "eleito": false,
+     "proj": 152997
+    },
+    {
+     "n": "277",
+     "nome": "CALLEGARI",
+     "votos": 29634,
+     "pct": 1.31,
+     "eleito": false,
+     "proj": 53462
+    },
+    {
+     "n": "500",
+     "nome": "PROFESSOR FABIAN",
+     "votos": 24570,
+     "pct": 1.08,
+     "eleito": false,
+     "proj": 44326
+    },
+    {
+     "n": "300",
+     "nome": "LEONARDO MONJARDIM",
+     "votos": 16300,
+     "pct": 0.72,
+     "eleito": false,
+     "proj": 29406
+    },
+    {
+     "n": "280",
+     "nome": "RODNEY MIRANDA",
+     "votos": 8530,
+     "pct": 0.38,
+     "eleito": false,
+     "proj": 15389
+    }
+   ]
+  },
+  {
+   "uf": "go",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:12",
+   "pst": 26.41,
+   "eleitorado": 5074870,
+   "total": 2008626,
+   "validos": 1713096,
+   "brancos": 139496,
+   "nulos": 156034,
+   "fator": 3.9703,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "GUSTAVO GAYER",
+     "votos": 450380,
+     "pct": 26.29,
+     "eleito": false,
+     "proj": 1788148
+    },
+    {
+     "n": "444",
+     "nome": "GRACINHA CAIADO",
+     "votos": 353801,
+     "pct": 20.65,
+     "eleito": false,
+     "proj": 1404700
+    },
+    {
+     "n": "155",
+     "nome": "DR. ZACHARIAS CALIL",
+     "votos": 263875,
+     "pct": 15.4,
+     "eleito": false,
+     "proj": 1047666
+    },
+    {
+     "n": "227",
+     "nome": "OSÉIAS VARÃO",
+     "votos": 188241,
+     "pct": 10.99,
+     "eleito": false,
+     "proj": 747375
+    },
+    {
+     "n": "555",
+     "nome": "VANDERLAN CARDOSO",
+     "votos": 148930,
+     "pct": 8.69,
+     "eleito": false,
+     "proj": 591298
+    },
+    {
+     "n": "251",
+     "nome": "GUSTAVO MENDANHA",
+     "votos": 135962,
+     "pct": 7.94,
+     "eleito": false,
+     "proj": 539811
+    },
+    {
+     "n": "400",
+     "nome": "ISAURA LEMOS",
+     "votos": 85814,
+     "pct": 5.01,
+     "eleito": false,
+     "proj": 340708
+    },
+    {
+     "n": "500",
+     "nome": "CINTIA DIAS",
+     "votos": 70936,
+     "pct": 4.14,
+     "eleito": false,
+     "proj": 281638
+    },
+    {
+     "n": "456",
+     "nome": "ERNESTO ROLLER",
+     "votos": 7846,
+     "pct": 0.46,
+     "eleito": false,
+     "proj": 31151
+    },
+    {
+     "n": "234",
+     "nome": "IURE CASTRO",
+     "votos": 5507,
+     "pct": 0.32,
+     "eleito": false,
+     "proj": 21864
+    },
+    {
+     "n": "800",
+     "nome": "GUILHERME DARQUES",
+     "votos": 1804,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 7162
+    }
+   ]
+  },
+  {
+   "uf": "ma",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:13",
+   "pst": 20.31,
+   "eleitorado": 5180851,
+   "total": 1553766,
+   "validos": 1342870,
+   "brancos": 93764,
+   "nulos": 111891,
+   "fator": 5.4057,
+   "candidatos": [
+    {
+     "n": "300",
+     "nome": "LAHESIO BONFIM",
+     "votos": 300732,
+     "pct": 22.31,
+     "eleito": false,
+     "proj": 1625664
+    },
+    {
+     "n": "111",
+     "nome": "FUFUCA",
+     "votos": 286417,
+     "pct": 21.25,
+     "eleito": false,
+     "proj": 1548281
+    },
+    {
+     "n": "151",
+     "nome": "ROSEANA SARNEY",
+     "votos": 206466,
+     "pct": 15.32,
+     "eleito": false,
+     "proj": 1116091
+    },
+    {
+     "n": "123",
+     "nome": "WEVERTON ROCHA",
+     "votos": 182353,
+     "pct": 13.53,
+     "eleito": false,
+     "proj": 985744
+    },
+    {
+     "n": "133",
+     "nome": "ELIZIANE GAMA",
+     "votos": 134208,
+     "pct": 9.96,
+     "eleito": false,
+     "proj": 725487
+    },
+    {
+     "n": "222",
+     "nome": "CIDÔNIO GONÇALVES",
+     "votos": 130235,
+     "pct": 9.66,
+     "eleito": false,
+     "proj": 704010
+    },
+    {
+     "n": "333",
+     "nome": "DR.HILTON GONÇALO",
+     "votos": 77413,
+     "pct": 5.74,
+     "eleito": false,
+     "proj": 418471
+    },
+    {
+     "n": "500",
+     "nome": "ENILTON RODRIGUES",
+     "votos": 20921,
+     "pct": 1.55,
+     "eleito": false,
+     "proj": 113092
+    },
+    {
+     "n": "277",
+     "nome": "SIMPLÍCIO ARAÚJO",
+     "votos": 5241,
+     "pct": 0.39,
+     "eleito": false,
+     "proj": 28331
+    },
+    {
+     "n": "160",
+     "nome": "WILSON LEITE",
+     "votos": 2986,
+     "pct": 0.22,
+     "eleito": false,
+     "proj": 16141
+    },
+    {
+     "n": "212",
+     "nome": "RAIMUNDO MOREIRA",
+     "votos": 1139,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 6157
+    }
+   ]
+  },
+  {
+   "uf": "mg",
+   "race": "senador",
+   "gerado": "04/10/2026 18:18:41",
+   "pst": 18.09,
+   "eleitorado": 16361188,
+   "total": 4721752,
+   "validos": 3954142,
+   "brancos": 357450,
+   "nulos": 409449,
+   "fator": 5.2985,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "DOMINGOS SÁVIO",
+     "votos": 954216,
+     "pct": 24.13,
+     "eleito": false,
+     "proj": 5055950
+    },
+    {
+     "n": "131",
+     "nome": "MARÍLIA CAMPOS",
+     "votos": 808067,
+     "pct": 20.43,
+     "eleito": false,
+     "proj": 4281574
+    },
+    {
+     "n": "555",
+     "nome": "CARLOS VIANA",
+     "votos": 661581,
+     "pct": 16.73,
+     "eleito": false,
+     "proj": 3505413
+    },
+    {
+     "n": "500",
+     "nome": "ÁUREA CAROLINA",
+     "votos": 563480,
+     "pct": 14.25,
+     "eleito": false,
+     "proj": 2985621
+    },
+    {
+     "n": "111",
+     "nome": "MARCELO ARO",
+     "votos": 410243,
+     "pct": 10.37,
+     "eleito": false,
+     "proj": 2173688
+    },
+    {
+     "n": "300",
+     "nome": "MARCO ANTÔNIO SUPERMAN",
+     "votos": 385908,
+     "pct": 9.76,
+     "eleito": false,
+     "proj": 2044748
+    },
+    {
+     "n": "456",
+     "nome": "AÉCIO NEVES",
+     "votos": 134970,
+     "pct": 3.41,
+     "eleito": false,
+     "proj": 715144
+    },
+    {
+     "n": "155",
+     "nome": "ARCANJO PIMENTA",
+     "votos": 8316,
+     "pct": 0.21,
+     "eleito": false,
+     "proj": 44063
+    },
+    {
+     "n": "700",
+     "nome": "CARLIN MOURA",
+     "votos": 6954,
+     "pct": 0.18,
+     "eleito": false,
+     "proj": 36846
+    },
+    {
+     "n": "150",
+     "nome": "MANOEL CARVALHO",
+     "votos": 6436,
+     "pct": 0.16,
+     "eleito": false,
+     "proj": 34101
+    },
+    {
+     "n": "808",
+     "nome": "ANA LUIZA DO MLB",
+     "votos": 5325,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 28215
+    },
+    {
+     "n": "161",
+     "nome": "VICTÓRIA MELLO VIC",
+     "votos": 3239,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 17162
+    },
+    {
+     "n": "277",
+     "nome": "JUÍZ RAMON MOREIRA",
+     "votos": 2447,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 12966
+    },
+    {
+     "n": "800",
+     "nome": "FIDÉLIS ALCÂNTARA",
+     "votos": 1756,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 9304
+    },
+    {
+     "n": "160",
+     "nome": "JORDANO METALÚRGICO",
+     "votos": 1204,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 6379
+    },
+    {
+     "n": "290",
+     "nome": "TIÃO PESSOA",
+     "votos": 711,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 3767
+    }
+   ]
+  },
+  {
+   "uf": "ms",
+   "race": "senador",
+   "gerado": "04/10/2026 18:22:23",
+   "pst": 71.91,
+   "eleitorado": 2021869,
+   "total": 2210880,
+   "validos": 1874714,
+   "brancos": 164174,
+   "nulos": 171992,
+   "fator": 1.3983,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "REINALDO AZAMBUJA",
+     "votos": 647899,
+     "pct": 34.56,
+     "eleito": false,
+     "proj": 905953
+    },
+    {
+     "n": "221",
+     "nome": "CAPITÃO CONTAR",
+     "votos": 628844,
+     "pct": 33.54,
+     "eleito": false,
+     "proj": 879309
+    },
+    {
+     "n": "133",
+     "nome": "VANDER LOUBET",
+     "votos": 246800,
+     "pct": 13.16,
+     "eleito": false,
+     "proj": 345099
+    },
+    {
+     "n": "400",
+     "nome": "SORAYA",
+     "votos": 238174,
+     "pct": 12.7,
+     "eleito": false,
+     "proj": 333037
+    },
+    {
+     "n": "300",
+     "nome": "ROBERTO OSHIRO",
+     "votos": 81748,
+     "pct": 4.36,
+     "eleito": false,
+     "proj": 114308
+    },
+    {
+     "n": "500",
+     "nome": "BETO DO MOVIMENTO",
+     "votos": 14180,
+     "pct": 0.76,
+     "eleito": false,
+     "proj": 19828
+    },
+    {
+     "n": "258",
+     "nome": "VALTER DA COMAGRAN",
+     "votos": 10902,
+     "pct": 0.58,
+     "eleito": false,
+     "proj": 15244
+    },
+    {
+     "n": "277",
+     "nome": "LUIZ LEMES",
+     "votos": 3776,
+     "pct": 0.2,
+     "eleito": false,
+     "proj": 5280
+    },
+    {
+     "n": "290",
+     "nome": "VALDERI GARCIA",
+     "votos": 2391,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 3343
+    }
+   ]
+  },
+  {
+   "uf": "mt",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:43",
+   "pst": 43.94,
+   "eleitorado": 2634992,
+   "total": 1774714,
+   "validos": 1557382,
+   "brancos": 97479,
+   "nulos": 119853,
+   "fator": 2.3431,
+   "candidatos": [
+    {
+     "n": "444",
+     "nome": "MAURO MENDES",
+     "votos": 511786,
+     "pct": 32.86,
+     "eleito": false,
+     "proj": 1199168
+    },
+    {
+     "n": "222",
+     "nome": "ZÉ MEDEIROS",
+     "votos": 420104,
+     "pct": 26.98,
+     "eleito": false,
+     "proj": 984348
+    },
+    {
+     "n": "150",
+     "nome": "JANAINA RIVA",
+     "votos": 223124,
+     "pct": 14.33,
+     "eleito": false,
+     "proj": 522803
+    },
+    {
+     "n": "555",
+     "nome": "FÁVARO",
+     "votos": 179901,
+     "pct": 11.55,
+     "eleito": false,
+     "proj": 421527
+    },
+    {
+     "n": "400",
+     "nome": "PEDRO TAQUES",
+     "votos": 104161,
+     "pct": 6.69,
+     "eleito": false,
+     "proj": 244060
+    },
+    {
+     "n": "700",
+     "nome": "GALVAN",
+     "votos": 74751,
+     "pct": 4.8,
+     "eleito": false,
+     "proj": 175149
+    },
+    {
+     "n": "111",
+     "nome": "MARGARETH BUZETTI",
+     "votos": 33851,
+     "pct": 2.17,
+     "eleito": false,
+     "proj": 79316
+    },
+    {
+     "n": "351",
+     "nome": "CORONEL DARWIN",
+     "votos": 6335,
+     "pct": 0.41,
+     "eleito": false,
+     "proj": 14844
+    },
+    {
+     "n": "360",
+     "nome": "PROFESSOR NELSON FERREIRA",
+     "votos": 2556,
+     "pct": 0.16,
+     "eleito": false,
+     "proj": 5989
+    },
+    {
+     "n": "365",
+     "nome": "BENY GODOY",
+     "votos": 813,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 1905
+    }
+   ]
+  },
+  {
+   "uf": "pa",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:44",
+   "pst": 34.14,
+   "eleitorado": 6258162,
+   "total": 3447628,
+   "validos": 3033454,
+   "brancos": 172633,
+   "nulos": 234142,
+   "fator": 2.95,
+   "candidatos": [
+    {
+     "n": "151",
+     "nome": "HELDER",
+     "votos": 745830,
+     "pct": 24.53,
+     "eleito": false,
+     "proj": 2200166
+    },
+    {
+     "n": "222",
+     "nome": "DELEGADO ÉDER MAURO",
+     "votos": 715026,
+     "pct": 23.51,
+     "eleito": false,
+     "proj": 2109296
+    },
+    {
+     "n": "200",
+     "nome": "ZEQUINHA MARINHO",
+     "votos": 647716,
+     "pct": 21.3,
+     "eleito": false,
+     "proj": 1910734
+    },
+    {
+     "n": "444",
+     "nome": "CHICÃO",
+     "votos": 624709,
+     "pct": 20.54,
+     "eleito": false,
+     "proj": 1842864
+    },
+    {
+     "n": "123",
+     "nome": "CELSO SABINO",
+     "votos": 205673,
+     "pct": 6.76,
+     "eleito": false,
+     "proj": 606726
+    },
+    {
+     "n": "505",
+     "nome": "GIZELLE FREITAS",
+     "votos": 44782,
+     "pct": 1.47,
+     "eleito": false,
+     "proj": 132105
+    },
+    {
+     "n": "777",
+     "nome": "LIVIA NORONHA",
+     "votos": 20021,
+     "pct": 0.66,
+     "eleito": false,
+     "proj": 59061
+    },
+    {
+     "n": "500",
+     "nome": "CONTI",
+     "votos": 17159,
+     "pct": 0.56,
+     "eleito": false,
+     "proj": 50618
+    },
+    {
+     "n": "800",
+     "nome": "FERNANDA LOPES",
+     "votos": 6840,
+     "pct": 0.22,
+     "eleito": false,
+     "proj": 20178
+    },
+    {
+     "n": "277",
+     "nome": "CORONEL JONILDO",
+     "votos": 5698,
+     "pct": 0.19,
+     "eleito": false,
+     "proj": 16809
+    },
+    {
+     "n": "355",
+     "nome": "EDLAINE RODRIGUES",
+     "votos": 4264,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 12579
+    },
+    {
+     "n": "333",
+     "nome": "BRENO GUIMARÃES",
+     "votos": 3135,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 9248
+    }
+   ]
+  },
+  {
+   "uf": "pb",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:51",
+   "pst": 60.06,
+   "eleitorado": 3241966,
+   "total": 3107804,
+   "validos": 2499789,
+   "brancos": 251686,
+   "nulos": 356329,
+   "fator": 1.7253,
+   "candidatos": [
+    {
+     "n": "400",
+     "nome": "JOAO AZEVÊDO",
+     "votos": 824970,
+     "pct": 33.0,
+     "eleito": false,
+     "proj": 1423282
+    },
+    {
+     "n": "155",
+     "nome": "VENEZIANO",
+     "votos": 566155,
+     "pct": 22.65,
+     "eleito": false,
+     "proj": 976761
+    },
+    {
+     "n": "100",
+     "nome": "NABOR",
+     "votos": 511522,
+     "pct": 20.46,
+     "eleito": false,
+     "proj": 882505
+    },
+    {
+     "n": "222",
+     "nome": "DR. MARCELO QUEIROGA",
+     "votos": 317536,
+     "pct": 12.7,
+     "eleito": false,
+     "proj": 547830
+    },
+    {
+     "n": "300",
+     "nome": "MAJOR FÁBIO",
+     "votos": 194672,
+     "pct": 7.79,
+     "eleito": false,
+     "proj": 335858
+    },
+    {
+     "n": "151",
+     "nome": "ANDRÉ GADELHA",
+     "votos": 64374,
+     "pct": 2.58,
+     "eleito": false,
+     "proj": 111061
+    },
+    {
+     "n": "800",
+     "nome": "ROSILENE SANTANA",
+     "votos": 12942,
+     "pct": 0.52,
+     "eleito": false,
+     "proj": 22328
+    },
+    {
+     "n": "272",
+     "nome": "RINALDO JÚNIOR",
+     "votos": 3526,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 6083
+    },
+    {
+     "n": "801",
+     "nome": "JOÃO BATISTA",
+     "votos": 2499,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 4311
+    },
+    {
+     "n": "290",
+     "nome": "ADRIANO TRAJANO",
+     "votos": 1593,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 2748
+    }
+   ]
+  },
+  {
+   "uf": "pe",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:44",
+   "pst": 14.98,
+   "eleitorado": 7216989,
+   "total": 1553376,
+   "validos": 1248135,
+   "brancos": 138998,
+   "nulos": 163964,
+   "fator": 7.6914,
+   "candidatos": [
+    {
+     "n": "130",
+     "nome": "HUMBERTO COSTA",
+     "votos": 329172,
+     "pct": 26.33,
+     "eleito": false,
+     "proj": 2531792
+    },
+    {
+     "n": "123",
+     "nome": "MARÍLIA ARRAES",
+     "votos": 309742,
+     "pct": 24.77,
+     "eleito": false,
+     "proj": 2382348
+    },
+    {
+     "n": "222",
+     "nome": "MENDONÇA FILHO",
+     "votos": 247964,
+     "pct": 19.83,
+     "eleito": false,
+     "proj": 1907189
+    },
+    {
+     "n": "111",
+     "nome": "EDUARDO DA FONTE",
+     "votos": 158907,
+     "pct": 12.71,
+     "eleito": false,
+     "proj": 1222216
+    },
+    {
+     "n": "300",
+     "nome": "CARLOS SANT'ANNA",
+     "votos": 111147,
+     "pct": 8.89,
+     "eleito": false,
+     "proj": 854875
+    },
+    {
+     "n": "555",
+     "nome": "TÚLIO GADÊLHA",
+     "votos": 81713,
+     "pct": 6.53,
+     "eleito": false,
+     "proj": 628487
+    },
+    {
+     "n": "180",
+     "nome": "PAULO RUBEM SANTIAGO",
+     "votos": 6910,
+     "pct": 0.55,
+     "eleito": false,
+     "proj": 53148
+    },
+    {
+     "n": "355",
+     "nome": "PASTOR GILVAN COSTA",
+     "votos": 2279,
+     "pct": 0.18,
+     "eleito": false,
+     "proj": 17529
+    },
+    {
+     "n": "801",
+     "nome": "GORETT BITU",
+     "votos": 1316,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 10122
+    },
+    {
+     "n": "800",
+     "nome": "SAMUEL TIMOTEO",
+     "votos": 626,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 4815
+    },
+    {
+     "n": "161",
+     "nome": "MARIANO MACEDO",
+     "votos": 443,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 3407
+    },
+    {
+     "n": "290",
+     "nome": "MAILSON DA SILVA NETO",
+     "votos": 195,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 1500
+    }
+   ]
+  },
+  {
+   "uf": "pi",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:21",
+   "pst": 31.16,
+   "eleitorado": 2703064,
+   "total": 1367728,
+   "validos": 1109356,
+   "brancos": 94707,
+   "nulos": 154339,
+   "fator": 3.2573,
+   "candidatos": [
+    {
+     "n": "151",
+     "nome": "MARCELO CASTRO",
+     "votos": 384691,
+     "pct": 34.39,
+     "eleito": false,
+     "proj": 1253048
+    },
+    {
+     "n": "555",
+     "nome": "JÚLIO CÉSAR O JULIM DO LULA",
+     "votos": 293996,
+     "pct": 26.28,
+     "eleito": false,
+     "proj": 957629
+    },
+    {
+     "n": "111",
+     "nome": "CIRO NOGUEIRA",
+     "votos": 272176,
+     "pct": 24.33,
+     "eleito": false,
+     "proj": 886555
+    },
+    {
+     "n": "222",
+     "nome": "TIAGO JUNQUEIRA",
+     "votos": 115088,
+     "pct": 10.29,
+     "eleito": false,
+     "proj": 374874
+    },
+    {
+     "n": "300",
+     "nome": "ANTÔNIO BARROS",
+     "votos": 15179,
+     "pct": 1.36,
+     "eleito": false,
+     "proj": 49442
+    },
+    {
+     "n": "505",
+     "nome": "MARIA MADALENA NUNES",
+     "votos": 10330,
+     "pct": 0.92,
+     "eleito": false,
+     "proj": 33648
+    },
+    {
+     "n": "700",
+     "nome": "ANTÔNIO JOSÉ LIRA",
+     "votos": 8097,
+     "pct": 0.72,
+     "eleito": false,
+     "proj": 26374
+    },
+    {
+     "n": "500",
+     "nome": "FRANCINALDO LEÃO",
+     "votos": 4062,
+     "pct": 0.36,
+     "eleito": false,
+     "proj": 13231
+    },
+    {
+     "n": "456",
+     "nome": "JORGE LOPES",
+     "votos": 3333,
+     "pct": 0.3,
+     "eleito": false,
+     "proj": 10857
+    },
+    {
+     "n": "277",
+     "nome": "DIONISIO CARVALHO",
+     "votos": 3101,
+     "pct": 0.28,
+     "eleito": false,
+     "proj": 10101
+    },
+    {
+     "n": "800",
+     "nome": "PEDRO LAURENTINO",
+     "votos": 2404,
+     "pct": 0.21,
+     "eleito": false,
+     "proj": 7831
+    },
+    {
+     "n": "355",
+     "nome": "JARDENYA BEZERRA",
+     "votos": 2318,
+     "pct": 0.21,
+     "eleito": false,
+     "proj": 7550
+    },
+    {
+     "n": "278",
+     "nome": "IRMÃO EVANDRO MARQUES",
+     "votos": 2142,
+     "pct": 0.19,
+     "eleito": false,
+     "proj": 6977
+    },
+    {
+     "n": "166",
+     "nome": "DANNIEL ROCHA",
+     "votos": 1063,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 3462
+    },
+    {
+     "n": "350",
+     "nome": "MISSIONÁRIO EVANDRO CRAVEIRO",
+     "votos": 474,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 1544
+    },
+    {
+     "n": "291",
+     "nome": "CLOVES JOSÉ",
+     "votos": 228,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 743
+    }
+   ]
+  },
+  {
+   "uf": "pr",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:16",
+   "pst": 60.24,
+   "eleitorado": 8600624,
+   "total": 8199228,
+   "validos": 6967889,
+   "brancos": 611332,
+   "nulos": 614141,
+   "fator": 1.6691,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "FILIPE BARROS",
+     "votos": 1910636,
+     "pct": 27.4,
+     "eleito": false,
+     "proj": 3188988
+    },
+    {
+     "n": "300",
+     "nome": "DELTAN DALLAGNOL",
+     "votos": 1788300,
+     "pct": 25.64,
+     "eleito": false,
+     "proj": 2984801
+    },
+    {
+     "n": "100",
+     "nome": "ALEXANDRE CURI",
+     "votos": 1137513,
+     "pct": 16.31,
+     "eleito": false,
+     "proj": 1898591
+    },
+    {
+     "n": "131",
+     "nome": "GLEISI",
+     "votos": 918511,
+     "pct": 13.17,
+     "eleito": false,
+     "proj": 1533061
+    },
+    {
+     "n": "132",
+     "nome": "DR ROSINHA",
+     "votos": 701689,
+     "pct": 10.06,
+     "eleito": false,
+     "proj": 1171169
+    },
+    {
+     "n": "555",
+     "nome": "CRISTINA GRAEML",
+     "votos": 442946,
+     "pct": 6.35,
+     "eleito": false,
+     "proj": 739309
+    },
+    {
+     "n": "144",
+     "nome": "KAREN GUERREIRO",
+     "votos": 58191,
+     "pct": 0.83,
+     "eleito": false,
+     "proj": 97125
+    },
+    {
+     "n": "800",
+     "nome": "JOAQUIM DO MLB",
+     "votos": 10103,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 16863
+    },
+    {
+     "n": "290",
+     "nome": "MARCELO MARCELINO",
+     "votos": 5866,
+     "pct": 0.08,
+     "eleito": false,
+     "proj": 9791
+    }
+   ]
+  },
+  {
+   "uf": "rj",
+   "race": "senador",
+   "gerado": "04/10/2026 18:18:42",
+   "pst": 6.13,
+   "eleitorado": 12842517,
+   "total": 1056146,
+   "validos": 879070,
+   "brancos": 76070,
+   "nulos": 100695,
+   "fator": 18.7837,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "CARLOS PORTINHO",
+     "votos": 236712,
+     "pct": 26.92,
+     "eleito": false,
+     "proj": 4446330
+    },
+    {
+     "n": "221",
+     "nome": "CARLOS JORDY",
+     "votos": 216027,
+     "pct": 24.57,
+     "eleito": false,
+     "proj": 4057789
+    },
+    {
+     "n": "131",
+     "nome": "BENEDITA DA SILVA",
+     "votos": 181500,
+     "pct": 20.64,
+     "eleito": false,
+     "proj": 3409244
+    },
+    {
+     "n": "555",
+     "nome": "PEDRO PAULO",
+     "votos": 102485,
+     "pct": 11.65,
+     "eleito": false,
+     "proj": 1925049
+    },
+    {
+     "n": "500",
+     "nome": "MONICA BENICIO",
+     "votos": 89383,
+     "pct": 10.16,
+     "eleito": false,
+     "proj": 1678944
+    },
+    {
+     "n": "100",
+     "nome": "MARCELO CRIVELLA",
+     "votos": 23890,
+     "pct": 2.72,
+     "eleito": false,
+     "proj": 448743
+    },
+    {
+     "n": "200",
+     "nome": "MARCOS DIAS",
+     "votos": 7986,
+     "pct": 0.91,
+     "eleito": false,
+     "proj": 150007
+    },
+    {
+     "n": "101",
+     "nome": "WAGUINHO",
+     "votos": 7655,
+     "pct": 0.87,
+     "eleito": false,
+     "proj": 143789
+    },
+    {
+     "n": "144",
+     "nome": "HELIO SECCO",
+     "votos": 7434,
+     "pct": 0.85,
+     "eleito": false,
+     "proj": 139638
+    },
+    {
+     "n": "280",
+     "nome": "LUCIANO MATTOS",
+     "votos": 2070,
+     "pct": 0.24,
+     "eleito": false,
+     "proj": 38882
+    },
+    {
+     "n": "800",
+     "nome": "MICHELLY XAVIER",
+     "votos": 1511,
+     "pct": 0.17,
+     "eleito": false,
+     "proj": 28382
+    },
+    {
+     "n": "160",
+     "nome": "PAULA FALCÃO",
+     "votos": 1507,
+     "pct": 0.17,
+     "eleito": false,
+     "proj": 28307
+    },
+    {
+     "n": "355",
+     "nome": "Ó CLEMENTE",
+     "votos": 518,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 9730
+    },
+    {
+     "n": "808",
+     "nome": "VINICIUS BENEVIDES",
+     "votos": 392,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 7363
+    },
+    {
+     "n": "290",
+     "nome": "LUIZ EUGENIO",
+     "votos": 311,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 5842
+    }
+   ]
+  },
+  {
+   "uf": "rn",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:44",
+   "pst": 22.96,
+   "eleitorado": 2656207,
+   "total": 908262,
+   "validos": 764352,
+   "brancos": 57978,
+   "nulos": 85932,
+   "fator": 4.8101,
+   "candidatos": [
+    {
+     "n": "200",
+     "nome": "STYVENSON VALENTIM",
+     "votos": 225877,
+     "pct": 29.55,
+     "eleito": false,
+     "proj": 1086494
+    },
+    {
+     "n": "555",
+     "nome": "ZENAIDE MAIA",
+     "votos": 142705,
+     "pct": 18.67,
+     "eleito": false,
+     "proj": 686427
+    },
+    {
+     "n": "131",
+     "nome": "SAMANDA DE LULA",
+     "votos": 135100,
+     "pct": 17.68,
+     "eleito": false,
+     "proj": 649846
+    },
+    {
+     "n": "222",
+     "nome": "CORONEL HÉLIO",
+     "votos": 121969,
+     "pct": 15.96,
+     "eleito": false,
+     "proj": 586685
+    },
+    {
+     "n": "123",
+     "nome": "RAFAEL MOTTA",
+     "votos": 108272,
+     "pct": 14.17,
+     "eleito": false,
+     "proj": 520801
+    },
+    {
+     "n": "444",
+     "nome": "TÉRCIO TINÔCO",
+     "votos": 20835,
+     "pct": 2.73,
+     "eleito": false,
+     "proj": 100219
+    },
+    {
+     "n": "500",
+     "nome": "SANDRO PIMENTEL",
+     "votos": 4339,
+     "pct": 0.57,
+     "eleito": false,
+     "proj": 20871
+    },
+    {
+     "n": "501",
+     "nome": "SONIA GODEIRO",
+     "votos": 2550,
+     "pct": 0.33,
+     "eleito": false,
+     "proj": 12266
+    },
+    {
+     "n": "800",
+     "nome": "PROFESSOR GUILHERME",
+     "votos": 989,
+     "pct": 0.13,
+     "eleito": false,
+     "proj": 4757
+    },
+    {
+     "n": "166",
+     "nome": "ROSÁLIA FERNANDES",
+     "votos": 523,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 2516
+    },
+    {
+     "n": "161",
+     "nome": "LUCIANA MANDU",
+     "votos": 502,
+     "pct": 0.07,
+     "eleito": false,
+     "proj": 2415
+    },
+    {
+     "n": "369",
+     "nome": "CLÓVIS COSTA DO COLETIVO NÓS",
+     "votos": 399,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 1919
+    },
+    {
+     "n": "360",
+     "nome": "GARI WENDELL BATISTA",
+     "votos": 292,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 1405
+    }
+   ]
+  },
+  {
+   "uf": "ro",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:45",
+   "pst": 50.7,
+   "eleitorado": 1265008,
+   "total": 1012002,
+   "validos": 889278,
+   "brancos": 45952,
+   "nulos": 59282,
+   "fator": 1.9767,
+   "candidatos": [
+    {
+     "n": "221",
+     "nome": "DR. FERNANDO MÁXIMO",
+     "votos": 279968,
+     "pct": 30.88,
+     "eleito": false,
+     "proj": 553413
+    },
+    {
+     "n": "222",
+     "nome": "BRUNO SCHEID",
+     "votos": 226282,
+     "pct": 24.95,
+     "eleito": false,
+     "proj": 447292
+    },
+    {
+     "n": "111",
+     "nome": "SÍLVIA CRISTINA",
+     "votos": 148403,
+     "pct": 16.37,
+     "eleito": false,
+     "proj": 293348
+    },
+    {
+     "n": "100",
+     "nome": "MARIANA CARVALHO",
+     "votos": 120149,
+     "pct": 13.25,
+     "eleito": false,
+     "proj": 237499
+    },
+    {
+     "n": "133",
+     "nome": "LUCIANA OLIVEIRA",
+     "votos": 56964,
+     "pct": 6.28,
+     "eleito": false,
+     "proj": 112601
+    },
+    {
+     "n": "123",
+     "nome": "ACIR GURGACZ",
+     "votos": 35581,
+     "pct": 3.92,
+     "eleito": false,
+     "proj": 70333
+    },
+    {
+     "n": "400",
+     "nome": "NEIDINHA",
+     "votos": 17490,
+     "pct": 1.93,
+     "eleito": false,
+     "proj": 34573
+    },
+    {
+     "n": "555",
+     "nome": "LUIS FERNANDO",
+     "votos": 15202,
+     "pct": 1.68,
+     "eleito": false,
+     "proj": 30050
+    },
+    {
+     "n": "144",
+     "nome": "ENGENHEIRO THULIO",
+     "votos": 4509,
+     "pct": 0.5,
+     "eleito": false,
+     "proj": 8913
+    },
+    {
+     "n": "432",
+     "nome": "AIRES MOTA",
+     "votos": 2220,
+     "pct": 0.24,
+     "eleito": false,
+     "proj": 4388
+    }
+   ]
+  },
+  {
+   "uf": "rr",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:20",
+   "pst": 19.35,
+   "eleitorado": 400603,
+   "total": 116994,
+   "validos": 107188,
+   "brancos": 2509,
+   "nulos": 6057,
+   "fator": 5.7214,
+   "candidatos": [
+    {
+     "n": "227",
+     "nome": "NICOLETTI",
+     "votos": 22576,
+     "pct": 20.82,
+     "eleito": false,
+     "proj": 129167
+    },
+    {
+     "n": "555",
+     "nome": "HELENA DA ASATUR",
+     "votos": 21627,
+     "pct": 19.95,
+     "eleito": false,
+     "proj": 123737
+    },
+    {
+     "n": "400",
+     "nome": "CHICO RODRIGUES",
+     "votos": 20234,
+     "pct": 18.66,
+     "eleito": false,
+     "proj": 115767
+    },
+    {
+     "n": "155",
+     "nome": "TERESA SURITA",
+     "votos": 18043,
+     "pct": 16.64,
+     "eleito": false,
+     "proj": 103232
+    },
+    {
+     "n": "222",
+     "nome": "HELIO FERNANDO BARBOSA LOPES",
+     "votos": 9736,
+     "pct": 8.98,
+     "eleito": false,
+     "proj": 55704
+    },
+    {
+     "n": "300",
+     "nome": "REGINA TIO IVO",
+     "votos": 7700,
+     "pct": 7.1,
+     "eleito": false,
+     "proj": 44055
+    },
+    {
+     "n": "444",
+     "nome": "PASTOR ISAMAR",
+     "votos": 4038,
+     "pct": 3.72,
+     "eleito": false,
+     "proj": 23103
+    },
+    {
+     "n": "500",
+     "nome": "BARTÔ MACUXI",
+     "votos": 2051,
+     "pct": 1.89,
+     "eleito": false,
+     "proj": 11735
+    },
+    {
+     "n": "700",
+     "nome": "HILTON XAVIER",
+     "votos": 961,
+     "pct": 0.89,
+     "eleito": false,
+     "proj": 5498
+    },
+    {
+     "n": "456",
+     "nome": "MÁRCIO JUNQUEIRA",
+     "votos": 765,
+     "pct": 0.71,
+     "eleito": false,
+     "proj": 4377
+    },
+    {
+     "n": "433",
+     "nome": "HIPERION DE OLIVEIRA",
+     "votos": 475,
+     "pct": 0.44,
+     "eleito": false,
+     "proj": 2718
+    },
+    {
+     "n": "277",
+     "nome": "ROGÉRIO MIRANDA",
+     "votos": 113,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 647
+    },
+    {
+     "n": "505",
+     "nome": "MARIO ROCHA",
+     "votos": 109,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 624
+    }
+   ]
+  },
+  {
+   "uf": "rs",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:21",
+   "pst": 41.04,
+   "eleitorado": 8516465,
+   "total": 5455238,
+   "validos": 4691399,
+   "brancos": 428314,
+   "nulos": 334595,
+   "fator": 2.4673,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "SANDERSON",
+     "votos": 1445670,
+     "pct": 30.81,
+     "eleito": false,
+     "proj": 3566870
+    },
+    {
+     "n": "300",
+     "nome": "MARCEL VAN HATTEM",
+     "votos": 1445396,
+     "pct": 30.8,
+     "eleito": false,
+     "proj": 3566194
+    },
+    {
+     "n": "500",
+     "nome": "MANUELA D'ÁVILA",
+     "votos": 769184,
+     "pct": 16.39,
+     "eleito": false,
+     "proj": 1897791
+    },
+    {
+     "n": "131",
+     "nome": "PIMENTA",
+     "votos": 729265,
+     "pct": 15.54,
+     "eleito": false,
+     "proj": 1799300
+    },
+    {
+     "n": "151",
+     "nome": "RIGOTTO",
+     "votos": 177603,
+     "pct": 3.78,
+     "eleito": false,
+     "proj": 438196
+    },
+    {
+     "n": "555",
+     "nome": "FREDERICO ANTUNES",
+     "votos": 88208,
+     "pct": 1.88,
+     "eleito": false,
+     "proj": 217634
+    },
+    {
+     "n": "160",
+     "nome": "DANIELA MULHERES SOCIALISTAS",
+     "votos": 10635,
+     "pct": 0.23,
+     "eleito": false,
+     "proj": 26240
+    },
+    {
+     "n": "455",
+     "nome": "MILTON CARDOSO",
+     "votos": 9679,
+     "pct": 0.21,
+     "eleito": false,
+     "proj": 23881
+    },
+    {
+     "n": "234",
+     "nome": "RENATO JAGUARÃO",
+     "votos": 7427,
+     "pct": 0.16,
+     "eleito": false,
+     "proj": 18324
+    },
+    {
+     "n": "808",
+     "nome": "TANIA PERES",
+     "votos": 4742,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 11700
+    },
+    {
+     "n": "800",
+     "nome": "LUCIANO DO MLB",
+     "votos": 2121,
+     "pct": 0.05,
+     "eleito": false,
+     "proj": 5233
+    },
+    {
+     "n": "161",
+     "nome": "REGIS ETHUR",
+     "votos": 1469,
+     "pct": 0.03,
+     "eleito": false,
+     "proj": 3624
+    },
+    {
+     "n": "290",
+     "nome": "RIC JONES",
+     "votos": 930,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 2295
+    }
+   ]
+  },
+  {
+   "uf": "sc",
+   "race": "senador",
+   "gerado": "04/10/2026 18:21:55",
+   "pst": 20.28,
+   "eleitorado": 5719541,
+   "total": 1827030,
+   "validos": 1596079,
+   "brancos": 112983,
+   "nulos": 115567,
+   "fator": 5.08,
+   "candidatos": [
+    {
+     "n": "221",
+     "nome": "CAROL DE TONI",
+     "votos": 509409,
+     "pct": 31.87,
+     "eleito": false,
+     "proj": 2587781
+    },
+    {
+     "n": "222",
+     "nome": "CARLOS BOLSONARO",
+     "votos": 365587,
+     "pct": 22.87,
+     "eleito": false,
+     "proj": 1857170
+    },
+    {
+     "n": "111",
+     "nome": "ESPERIDIÃO AMIN",
+     "votos": 263126,
+     "pct": 16.46,
+     "eleito": false,
+     "proj": 1336672
+    },
+    {
+     "n": "133",
+     "nome": "DÉCIO LIMA",
+     "votos": 189410,
+     "pct": 11.85,
+     "eleito": false,
+     "proj": 962197
+    },
+    {
+     "n": "500",
+     "nome": "AFRÂNIO BOPPRÉ",
+     "votos": 156971,
+     "pct": 9.82,
+     "eleito": false,
+     "proj": 797408
+    },
+    {
+     "n": "155",
+     "nome": "LUNELLI",
+     "votos": 90206,
+     "pct": 5.64,
+     "eleito": false,
+     "proj": 458244
+    },
+    {
+     "n": "144",
+     "nome": "TÚLIO DE AMORIM PFUETZENREITER",
+     "votos": 10833,
+     "pct": 0.68,
+     "eleito": false,
+     "proj": 55031
+    },
+    {
+     "n": "800",
+     "nome": "ANA LUCIA DA SILVEIRA MACHADO",
+     "votos": 3609,
+     "pct": 0.23,
+     "eleito": false,
+     "proj": 18334
+    },
+    {
+     "n": "250",
+     "nome": "JEFERSON ROCHA",
+     "votos": 3227,
+     "pct": 0.2,
+     "eleito": false,
+     "proj": 16393
+    },
+    {
+     "n": "290",
+     "nome": "CAROL",
+     "votos": 2401,
+     "pct": 0.15,
+     "eleito": false,
+     "proj": 12197
+    },
+    {
+     "n": "808",
+     "nome": "MARLENE SOCCAS",
+     "votos": 1643,
+     "pct": 0.1,
+     "eleito": false,
+     "proj": 8346
+    },
+    {
+     "n": "160",
+     "nome": "JOANINHA DE OLIVEIRA",
+     "votos": 1374,
+     "pct": 0.09,
+     "eleito": false,
+     "proj": 6980
+    },
+    {
+     "n": "161",
+     "nome": "MARCOS DORVAL",
+     "votos": 684,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 3475
+    }
+   ]
+  },
+  {
+   "uf": "se",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:20",
+   "pst": 18.59,
+   "eleitorado": 1737460,
+   "total": 499166,
+   "validos": 394505,
+   "brancos": 35820,
+   "nulos": 49937,
+   "fator": 5.8063,
+   "candidatos": [
+    {
+     "n": "131",
+     "nome": "ROGERIO CARVALHO",
+     "votos": 85368,
+     "pct": 20.65,
+     "eleito": false,
+     "proj": 495671
+    },
+    {
+     "n": "155",
+     "nome": "DELEGADO ALESSANDRO",
+     "votos": 75183,
+     "pct": 18.19,
+     "eleito": false,
+     "proj": 436534
+    },
+    {
+     "n": "101",
+     "nome": "DELEGADO ANDRÉ DAVID",
+     "votos": 73858,
+     "pct": 17.87,
+     "eleito": false,
+     "proj": 428840
+    },
+    {
+     "n": "444",
+     "nome": "ANDRÉ MOURA",
+     "votos": 49398,
+     "pct": 11.95,
+     "eleito": false,
+     "proj": 286819
+    },
+    {
+     "n": "123",
+     "nome": "EDVALDO",
+     "votos": 38149,
+     "pct": 9.23,
+     "eleito": false,
+     "proj": 221504
+    },
+    {
+     "n": "100",
+     "nome": "EDUARDO AMORIM",
+     "votos": 35298,
+     "pct": 8.54,
+     "eleito": false,
+     "proj": 204950
+    },
+    {
+     "n": "222",
+     "nome": "RODRIGO VALADARES",
+     "votos": 27007,
+     "pct": 6.53,
+     "eleito": false,
+     "proj": 156810
+    },
+    {
+     "n": "500",
+     "nome": "IRAN BARBOSA",
+     "votos": 18904,
+     "pct": 4.57,
+     "eleito": false,
+     "proj": 109762
+    },
+    {
+     "n": "221",
+     "nome": "CORONEL ROCHA",
+     "votos": 8780,
+     "pct": 2.12,
+     "eleito": false,
+     "proj": 50979
+    },
+    {
+     "n": "277",
+     "nome": "RENATINHA",
+     "votos": 1464,
+     "pct": 0.35,
+     "eleito": false,
+     "proj": 8500
+    }
+   ]
+  },
+  {
+   "uf": "sp",
+   "race": "senador",
+   "gerado": "04/10/2026 18:20:43",
+   "pst": 12.22,
+   "eleitorado": 34081699,
+   "total": 6127102,
+   "validos": 5073906,
+   "brancos": 491877,
+   "nulos": 560438,
+   "fator": 8.6615,
+   "candidatos": [
+    {
+     "n": "111",
+     "nome": "GUILHERME DERRITE",
+     "votos": 1680202,
+     "pct": 33.11,
+     "eleito": false,
+     "proj": 14553035
+    },
+    {
+     "n": "222",
+     "nome": "ANDRÉ DO PRADO",
+     "votos": 1617433,
+     "pct": 31.87,
+     "eleito": false,
+     "proj": 14009362
+    },
+    {
+     "n": "400",
+     "nome": "SIMONE TEBET",
+     "votos": 852268,
+     "pct": 16.79,
+     "eleito": false,
+     "proj": 7381901
+    },
+    {
+     "n": "180",
+     "nome": "MARINA SILVA",
+     "votos": 796136,
+     "pct": 15.69,
+     "eleito": false,
+     "proj": 6895715
+    },
+    {
+     "n": "200",
+     "nome": "GERALDO RUFINO",
+     "votos": 43721,
+     "pct": 0.86,
+     "eleito": false,
+     "proj": 378689
+    },
+    {
+     "n": "144",
+     "nome": "GUTO SCHIAVETTO",
+     "votos": 42314,
+     "pct": 0.83,
+     "eleito": false,
+     "proj": 366502
+    },
+    {
+     "n": "232",
+     "nome": "SONINHA FRANCINE",
+     "votos": 15091,
+     "pct": 0.3,
+     "eleito": false,
+     "proj": 130710
+    },
+    {
+     "n": "808",
+     "nome": "MAÍRA DE SOUZA",
+     "votos": 10003,
+     "pct": 0.2,
+     "eleito": false,
+     "proj": 86641
+    },
+    {
+     "n": "161",
+     "nome": "DRA ELIANA FERREIRA",
+     "votos": 7230,
+     "pct": 0.14,
+     "eleito": false,
+     "proj": 62622
+    },
+    {
+     "n": "800",
+     "nome": "MARCIO ALVES",
+     "votos": 4347,
+     "pct": 0.09,
+     "eleito": false,
+     "proj": 37651
+    },
+    {
+     "n": "211",
+     "nome": "PETTER MAAHS",
+     "votos": 3096,
+     "pct": 0.06,
+     "eleito": false,
+     "proj": 26816
+    },
+    {
+     "n": "160",
+     "nome": "WELLER GONÇALVES",
+     "votos": 2065,
+     "pct": 0.04,
+     "eleito": false,
+     "proj": 17886
+    },
+    {
+     "n": "360",
+     "nome": "WILLIAM TEIXEIRA",
+     "votos": 881,
+     "pct": 0.02,
+     "eleito": false,
+     "proj": 7631
+    }
+   ]
+  },
+  {
+   "uf": "to",
+   "race": "senador",
+   "gerado": "04/10/2026 18:22:22",
+   "pst": 74.2,
+   "eleitorado": 1180433,
+   "total": 1403082,
+   "validos": 1205631,
+   "brancos": 67089,
+   "nulos": 128119,
+   "fator": 1.3742,
+   "candidatos": [
+    {
+     "n": "222",
+     "nome": "EDUARDO GOMES",
+     "votos": 329574,
+     "pct": 27.29,
+     "eleito": false,
+     "proj": 452902
+    },
+    {
+     "n": "153",
+     "nome": "ALEXANDRE GUIMARÃES",
+     "votos": 228919,
+     "pct": 18.95,
+     "eleito": false,
+     "proj": 314582
+    },
+    {
+     "n": "100",
+     "nome": "ELI BORGES",
+     "votos": 203869,
+     "pct": 16.88,
+     "eleito": false,
+     "proj": 280158
+    },
+    {
+     "n": "444",
+     "nome": "GAGUIM",
+     "votos": 189267,
+     "pct": 15.67,
+     "eleito": false,
+     "proj": 260092
+    },
+    {
+     "n": "133",
+     "nome": "PAULO MOURÃO",
+     "votos": 94916,
+     "pct": 7.86,
+     "eleito": false,
+     "proj": 130434
+    },
+    {
+     "n": "202",
+     "nome": "RONALDO DIMAS",
+     "votos": 59785,
+     "pct": 4.95,
+     "eleito": false,
+     "proj": 82157
+    },
+    {
+     "n": "200",
+     "nome": "VANDERLEI LUXEMBURGO",
+     "votos": 50861,
+     "pct": 4.21,
+     "eleito": false,
+     "proj": 69893
+    },
+    {
+     "n": "500",
+     "nome": "PROFESSOR OSVALDO",
+     "votos": 26585,
+     "pct": 2.2,
+     "eleito": false,
+     "proj": 36533
+    },
+    {
+     "n": "303",
+     "nome": "CORONEL NILTON SANTOS",
+     "votos": 11251,
+     "pct": 0.93,
+     "eleito": false,
+     "proj": 15461
+    },
+    {
+     "n": "180",
+     "nome": "FÁBIO RIBEIRO",
+     "votos": 5598,
+     "pct": 0.46,
+     "eleito": false,
+     "proj": 7693
+    },
+    {
+     "n": "355",
+     "nome": "OSVANY LUZ",
+     "votos": 3644,
+     "pct": 0.3,
+     "eleito": false,
+     "proj": 5008
+    },
+    {
+     "n": "351",
+     "nome": "HELIO RODRIGUES BOLSONARO",
+     "votos": 2243,
+     "pct": 0.19,
+     "eleito": false,
+     "proj": 3082
+    },
+    {
+     "n": "277",
+     "nome": "APÓSTOLO FLAVIO BRAGA",
+     "votos": 1362,
+     "pct": 0.11,
+     "eleito": false,
+     "proj": 1872
+    }
+   ]
+  }
+ ],
+ "presidente_projecao_br": [
+  {
+   "nome": "FLAVIO BOLSONARO",
+   "proj": 58633236,
+   "pct_proj": 48.8
+  },
+  {
+   "nome": "LULA",
+   "proj": 52001197,
+   "pct_proj": 43.28
+  },
+  {
+   "nome": "ESCRITOR AUGUSTO CURY",
+   "proj": 3514907,
+   "pct_proj": 2.93
+  },
+  {
+   "nome": "RENAN SANTOS",
+   "proj": 2699829,
+   "pct_proj": 2.25
+  },
+  {
+   "nome": "RONALDO CAIADO",
+   "proj": 2681288,
+   "pct_proj": 2.23
+  },
+  {
+   "nome": "ZEMA",
+   "proj": 355824,
+   "pct_proj": 0.3
+  },
+  {
+   "nome": "SAMARA",
+   "proj": 124907,
+   "pct_proj": 0.1
+  },
+  {
+   "nome": "HERTZ DIAS",
+   "proj": 45705,
+   "pct_proj": 0.04
+  },
+  {
+   "nome": "CLARIANA BARAO",
+   "proj": 40218,
+   "pct_proj": 0.03
+  },
+  {
+   "nome": "EDMILSON COSTA",
+   "proj": 23306,
+   "pct_proj": 0.02
+  },
+  {
+   "nome": "VETERINÁRIO WILSON GRASSI",
+   "proj": 17803,
+   "pct_proj": 0.01
+  },
+  {
+   "nome": "RUI COSTA PIMENTA",
+   "proj": 16957,
+   "pct_proj": 0.01
+  }
+ ]
+}
