@@ -34,14 +34,19 @@ const ufRaces = {};     // uf -> {gov, sen, t}
 let sel = (location.hash.slice(1) || "sp").toLowerCase();
 if (!UFS.includes(sel)) sel = "sp";
 
+let mode = "atual";     // "atual" = TSE numbers only; "proj" = projection of the final 1st-round result
+try { if (localStorage.getItem("modo") === "proj") mode = "proj"; } catch {}
+const P = () => mode === "proj";
+
+// Current mode: votes and % as TSE reports. Projection mode: projected figure first, current beside it, labelled.
 function candRows(list, opts) {
-  const max = Math.max(...list.map(c => opts.projPct ? Math.max(c.pct, c.ppct) : c.pct), 1);
-  return `<div class="colh"><span>votos · % atual</span><span>${opts.projPct ? "projeção" : "proj. votos"}</span></div>` +
-    list.map((c, i) => `<div class="cand">
+  const proj = P(), max = Math.max(...list.map(c => proj && opts.projPct ? Math.max(c.pct, c.ppct) : c.pct), 1);
+  const head = proj ? `<div class="colh"><span>atual (TSE): votos · %</span><span>${opts.projPct ? "% projetado" : "votos projetados"}</span></div>` : "";
+  return head + list.map(c => `<div class="cand">
       <span class="nm">${esc(c.nome)} <small>${esc(c.sg)}</small>${c.eleito ? '<span class="tag el">eleito</span>' : ""}</span>
-      <span class="v">${fmt(c.votos)} · <b>${pct(c.pct)}</b></span>
-      <span class="pj">${opts.projPct ? pct(c.ppct) : fmt(c.proj)}</span>
-      <span class="bars">${opts.projPct ? `<i class="p" style="width:${c.ppct / max * 100}%"></i>` : ""}<i class="a" style="width:${c.pct / max * 100}%"></i></span>
+      <span class="v">${proj ? '<small class="lab">atual</small> ' : ""}${fmt(c.votos)} · <b>${pct(c.pct)}</b></span>
+      ${proj ? `<span class="pj"><small class="lab">projetado</small> ${opts.projPct ? pct(c.ppct) : fmt(c.proj)}</span>` : "<span></span>"}
+      <span class="bars">${proj && opts.projPct ? `<i class="p" style="width:${c.ppct / max * 100}%"></i>` : ""}<i class="a${proj ? "" : " full"}" style="width:${c.pct / max * 100}%"></i></span>
     </div>`).join("");
 }
 
@@ -54,10 +59,11 @@ function kpis(r) {
   </div><div class="prog"><i style="width:${r.pst}%"></i></div>`;
 }
 
+// Projection only, phrased as a 1st-round outcome.
 function verdict(list, key) {
-  const [a, b] = list;
+  const a = list[0];
   if (!a) return "";
-  return a[key] > 50 ? `Projeção: ${esc(a.nome)} vence no 1º turno` : `Projeção: 2º turno entre ${esc(a.nome)} e ${esc(b?.nome ?? "?")}`;
+  return a[key] > 50 ? `Projeção do 1º turno: ${esc(a.nome)} atinge 50%+ dos válidos` : "Projeção do 1º turno: nenhum candidato atinge 50% dos válidos";
 }
 
 function renderBR() {
@@ -69,9 +75,10 @@ function renderBR() {
   const sum = Object.values(tot).reduce((a, b) => a + b, 0) || 1;
   const list = br.cands.map(c => ({...c, ppct: (tot[c.n] || 0) / sum * 100}));
   const missing = UFS.filter(u => !pres[u]).length;
+  const v = br.fim ? "Apuração encerrada" : P() ? verdict([...list].sort((a, b) => b.ppct - a.ppct), "ppct") : "";
   $("#br").innerHTML = `<h2>Presidente · Brasil</h2>${kpis(br)}
-    <div class="verdict">${br.fim ? "Apuração encerrada" : verdict([...list].sort((a, b) => b.ppct - a.ppct), "ppct")}</div>
-    <div class="note" style="margin-bottom:6px">Barra escura = % atual; barra clara = % projetado (soma das projeções por estado).${missing ? ` <b>${missing} estado(s) sem dados nesta rodada.</b>` : ""}</div>
+    ${v ? `<div class="verdict">${v}</div>` : ""}
+    ${P() ? `<div class="note" style="margin-bottom:6px">Barra escura = % atual; barra clara = % projetado (soma das projeções por estado).${missing ? ` <b>${missing} estado(s) sem dados nesta rodada.</b>` : ""}</div>` : ""}
     ${candRows(list, {projPct: true})}`;
 }
 
@@ -90,15 +97,16 @@ function raceBlock(title, r) {
   if (!r) return `<div><h3>${title}</h3><div class="note">sem dados</div></div>`;
   let v = "";
   if (r.fim) v = "Apuração encerrada";
+  else if (!P()) v = "";
   else if (title === "Governador") v = verdict(r.cands, "pct");
   else if (title === "Senador") v = `Projeção (${r.vagas} vaga${r.vagas > 1 ? "s" : ""}): ` + r.cands.slice(0, r.vagas).map(c => esc(c.nome)).join(", ");
-  return `<div><h3>${title} · ${pct(r.pst)} apurado</h3><div class="verdict">${v}</div>${candRows(r.cands, {projPct: false})}</div>`;
+  return `<div><h3>${title} · ${pct(r.pst)} apurado</h3>${v ? `<div class="verdict">${v}</div>` : ""}${candRows(r.cands, {projPct: false})}</div>`;
 }
 
 function renderUF() {
   const p = pres[sel], x = ufRaces[sel] || {};
   $("#ufbody").className = "";
-  $("#ufbody").innerHTML = (p ? kpis(p) + `<div class="note">Fator de projeção: ×${p.f.toLocaleString("pt-BR", {maximumFractionDigits: 2})} (votos atuais → total esperado). Atualizado ${esc(p.hora)}.</div>` : "") +
+  $("#ufbody").innerHTML = (p ? kpis(p) + (P() ? `<div class="note">Fator de projeção: ×${p.f.toLocaleString("pt-BR", {maximumFractionDigits: 2})} (votos atuais → total esperado). Atualizado ${esc(p.hora)}.</div>` : "") : "") +
     `<div class="cols">${raceBlock("Presidente", p)}${sel === "zz" ? "" : raceBlock("Governador", x.gov) + raceBlock("Senador", x.sen)}</div>`;
 }
 
@@ -132,6 +140,15 @@ $("#uf").innerHTML = UFS.map(u => `<option value="${u}">${u.toUpperCase()} — $
 $("#uf").value = sel;
 $("#uf").onchange = e => select(e.target.value);
 $("#sort").onchange = renderGrid;
+function setMode(m) {
+  mode = m;
+  try { localStorage.setItem("modo", m); } catch {}
+  document.body.classList.toggle("proj", m === "proj");
+  document.querySelectorAll("#modo button").forEach(b => b.setAttribute("aria-pressed", b.dataset.m === m));
+  if (pres.br) { renderBR(); renderUF(); }
+}
+$("#modo").onclick = e => { const b = e.target.closest("button"); if (b) setMode(b.dataset.m); };
+setMode(mode);
 $("#grid").onclick = e => { const b = e.target.closest(".uf"); if (b) select(b.dataset.uf); };
 refresh();
 setInterval(refresh, REFRESH);

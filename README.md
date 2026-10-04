@@ -5,7 +5,9 @@ Live TSE 2026 election-count numbers by state, plus an extrapolation of the fina
 
 The page (`site/index.html` + `site/app.js`, no build) fetches the official TSE JSONs straight from the
 browser every 60 s (TSE echoes the request Origin in CORS) and shows president for Brazil, a state grid,
-and president/governor/senator per state, each with a projection.
+and president/governor/senator per state. The default view is the current TSE count only; a
+"Resultado atual | Projeção" toggle (remembered in localStorage) switches to the projection of the final
+1st-round result, clearly labelled as an estimate.
 
 ## Projection
 For each state (and abroad, `zz`), the uncounted sections are assumed to vote like the counted ones:

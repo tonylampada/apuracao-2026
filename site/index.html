@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Apuração 2026</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--ink:#16191d;--mut:#69717d;--line:#e3e6ea;--bar:#5b6b7f;--proj:#c2cad4;--acc:#2d5b8a;--warn:#a35d00}
-@media (prefers-color-scheme:dark){:root{--bg:#111316;--card:#1a1d21;--ink:#e8eaed;--mut:#9aa2ad;--line:#2a2f35;--bar:#8fa3ba;--proj:#3a434e;--acc:#8db6e0;--warn:#e0a050}}
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16191d;--mut:#69717d;--line:#e3e6ea;--bar:#5b6b7f;--proj:#c2cad4;--acc:#2d5b8a;--warn:#a35d00;--pacc:#8a3d9e;--pbg:#f7f2f9}
+@media (prefers-color-scheme:dark){:root{--bg:#111316;--card:#1a1d21;--ink:#e8eaed;--mut:#9aa2ad;--line:#2a2f35;--bar:#8fa3ba;--proj:#3a434e;--acc:#8db6e0;--warn:#e0a050;--pacc:#b06ccc;--pbg:#17121a}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
 main{max-width:1000px;margin:0 auto;padding:12px 16px 40px}
@@ -48,11 +48,33 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
 .verdict{font-size:13px;margin:6px 0 2px;color:var(--acc);font-weight:600}
 details summary{cursor:pointer;font-weight:600}
 a{color:var(--acc)}
+.cand .v small.lab,.cand .pj small.lab{font-weight:400;font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.03em}
+.bars .a.full{height:100%;top:0}
+.modo{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;margin-bottom:6px}
+.seg{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
+.seg button{flex:1;font:inherit;font-weight:600;padding:9px 8px;border:0;background:transparent;color:var(--mut);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--acc);color:#fff}
+.modo .hint{font-size:12px;color:var(--mut);margin-top:4px}
+.banner,.only-proj{display:none}
+body.proj .only-proj{display:block}
+body.proj .only-atual{display:none}
+.banner{background:var(--pacc);color:#fff;border-radius:10px;padding:10px 12px;font-weight:700;letter-spacing:.02em;margin-top:8px}
+.banner small{display:block;font-weight:400;letter-spacing:0;opacity:.9}
+body.proj{--acc:var(--pacc);--bg:var(--pbg)}
+body.proj .card{border-color:var(--pacc)}
 </style>
 </head>
 <body>
 <main>
 <header><h1>Apuração 2026 · 1º turno</h1><div id="status">carregando…</div></header>
+
+<div class="modo">
+  <div class="seg" id="modo" role="group" aria-label="Ver projeção do resultado final">
+    <button data-m="atual" aria-pressed="true">Resultado atual</button><button data-m="proj" aria-pressed="false">Projeção</button>
+  </div>
+  <div class="hint only-atual">Números oficiais do TSE, como estão agora. Toque em “Projeção” para ver a estimativa do resultado final.</div>
+  <div class="banner only-proj">PROJEÇÃO — estimativa, não é resultado oficial<small>Números “projetados” extrapolam as seções já apuradas para o total. Os números “atual” são os do TSE.</small></div>
+</div>
 
 <section class="card" id="br"><h2>Presidente · Brasil</h2><div class="note">carregando…</div></section>
 
@@ -68,15 +90,16 @@ a{color:var(--acc)}
   <div id="ufbody" class="note">carregando…</div>
 </section>
 
-<section class="card note">
+<section class="card note only-proj">
 <details open><summary>Como a projeção é calculada</summary>
 <p>Para cada estado (e para o exterior), supõe-se que as seções ainda não apuradas votam nas mesmas proporções que as já apuradas. Cada candidato tem seus votos escalados pelo fator <code>eleitorado total ÷ eleitorado das seções apuradas</code> (campos <code>e.te</code> e <code>e.est</code> do TSE), ou seja, projeta o total de votos esperado no estado mantendo o comparecimento observado.</p>
 <p>A projeção nacional para presidente é a soma das projeções de cada estado + exterior. Isso corrige o viés de estados grandes (SP, RJ, MG…) que apuram mais devagar. Governador e senador usam a mesma conta por estado.</p>
 <p><b>Ressalva:</b> a projeção supõe comportamento uniforme dentro de cada estado; capitais e interior costumam apurar em ritmos diferentes e votar diferente, então a projeção pode errar, principalmente com pouco apurado.</p>
-<p>Dados: <a href="https://resultados.tse.jus.br/oficial/app/index.html">TSE — resultados oficiais</a>, lidos direto do navegador a cada 60 s. Apresentação neutra, candidatos ordenados por votos. Código: <a href="https://github.com/tonylampada/apuracao-2026">github.com/tonylampada/apuracao-2026</a>.</p>
+
 </details>
 </section>
+<footer class="note">Dados: <a href="https://resultados.tse.jus.br/oficial/app/index.html">TSE — resultados oficiais</a>, lidos direto do navegador a cada 60 s. Apresentação neutra, candidatos ordenados por votos. Código: <a href="https://github.com/tonylampada/apuracao-2026">github.com/tonylampada/apuracao-2026</a>.</footer>
 </main>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
