@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Apuração 2026</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--ink:#16191d;--mut:#69717d;--line:#e3e6ea;--bar:#5b6b7f;--proj:#c2cad4;--acc:#2d5b8a;--warn:#a35d00;--pacc:#8a3d9e;--pbg:#f7f2f9;--c13:#d32f2f;--c22:#1f5fbf;--c3:#2e8b47;--cx:#9aa1aa}
-@media (prefers-color-scheme:dark){:root{--bg:#111316;--card:#1a1d21;--ink:#e8eaed;--mut:#9aa2ad;--line:#2a2f35;--bar:#8fa3ba;--proj:#3a434e;--acc:#8db6e0;--warn:#e0a050;--pacc:#b06ccc;--pbg:#17121a;--c13:#f05a55;--c22:#5c9df2;--c3:#4cc46a;--cx:#6b737d}}
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16191d;--mut:#69717d;--line:#e3e6ea;--bar:#5b6b7f;--proj:#c2cad4;--acc:#2d5b8a;--warn:#a35d00;--pacc:#8a3d9e;--pbg:#f7f2f9;--c13:#d32f2f;--c22:#1f5fbf;--c3:#2e8b47;--c4:#c77700;--c5:#d63384;--cx:#b3b9c0;--tg:#7d8590}
+@media (prefers-color-scheme:dark){:root{--bg:#111316;--card:#1a1d21;--ink:#e8eaed;--mut:#9aa2ad;--line:#2a2f35;--bar:#8fa3ba;--proj:#3a434e;--acc:#8db6e0;--warn:#e0a050;--pacc:#b06ccc;--pbg:#17121a;--c13:#f05a55;--c22:#5c9df2;--c3:#4cc46a;--c4:#f0a020;--c5:#f06ba8;--cx:#59616b;--tg:#4a525c}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
 main{max-width:1000px;margin:0 auto;padding:12px 16px 40px}
@@ -28,21 +28,19 @@ h3{font-size:14px;margin:16px 0 6px;text-transform:uppercase;letter-spacing:.04e
 .cand .pj{font-variant-numeric:tabular-nums;text-align:right;font-weight:700;min-width:62px}
 .cand .sub{grid-column:1/-1;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}
 .bars{grid-column:1/-1;position:relative;height:8px;background:var(--line);border-radius:4px;margin-top:4px;overflow:hidden}
-.bars i{position:absolute;left:0;top:0;bottom:0;border-radius:4px;background:var(--cc,var(--cx))}.bars .p{opacity:.35}.bars .a{height:4px;top:2px}
+.bars i{position:absolute;left:0;top:0;bottom:0;border-radius:4px;background:var(--cc,var(--cx))}.bars .p{opacity:.35}.bars::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--mut);opacity:.6}.bars .a{height:4px;top:2px}
 .colh{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 10px;font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
 .colh span:nth-child(2){text-align:right;min-width:62px}
 .tag{display:inline-block;font-size:11px;padding:1px 6px;border-radius:9px;border:1px solid var(--line);color:var(--mut);margin-left:4px;font-weight:600}
 .tag.el{border-color:var(--acc);color:var(--acc)}
 .note{font-size:13px;color:var(--mut)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:6px}
-.uf{position:relative;border:1px solid var(--line);border-radius:8px;padding:6px 7px;cursor:pointer;background:var(--card);overflow:hidden;min-width:0;font:inherit;color:inherit;text-align:left}
-.uf::before{content:"";position:absolute;inset:0;background:var(--acc);opacity:calc(var(--p) * .28)}
-.uf>*{position:relative}.uf.sel{outline:2px solid var(--acc)}
+.uf{position:relative;border:0;border-radius:8px;padding:6px 7px;cursor:pointer;overflow:hidden;min-width:0;font:inherit;color:#fff;text-align:left;text-shadow:0 1px 2px rgba(0,0,0,.75),0 0 1px rgba(0,0,0,.6)}
+.uf.sel{outline:3px solid var(--ink);outline-offset:1px}
 .uf b{font-size:15px}.uf .pc{float:right;font-size:12px;font-variant-numeric:tabular-nums}
-.uf .ld{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600;color:var(--cc,var(--mut));font-variant-numeric:tabular-nums}
-.uf .tb{display:block;height:4px;margin-top:3px;background:var(--line);border-radius:2px;overflow:hidden}.uf .tb i{display:block;height:100%;background:var(--cc);border-radius:2px}
-.uf .pl{display:block;font-size:10px;margin-top:3px;text-transform:uppercase;letter-spacing:.04em;color:var(--pacc);font-weight:700}
-.leg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px;margin-bottom:8px}.leg span{display:inline-flex;align-items:center;gap:5px}.leg i{width:12px;height:12px;border-radius:3px;background:var(--cc)}
+.uf .ld{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700;font-variant-numeric:tabular-nums}
+
+.leg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px;margin-bottom:8px}.leg span{display:inline-flex;align-items:center;gap:5px}.leg i{width:12px;height:12px;border-radius:3px;background:var(--cc,var(--tg))}
 .cand .nm .sw{display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--cc);margin-right:6px}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
 select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
@@ -86,8 +84,8 @@ body.proj .card{border-color:var(--pacc)}
   <div class="row"><h2 style="margin:0">Estados</h2>
     <span class="sortb">ordenar: <select id="sort"><option value="pst">% apurado</option><option value="te">eleitorado</option><option value="uf">sigla</option></select></span></div>
   <div class="leg" id="leg"></div>
-  <div class="note only-atual" style="margin-bottom:8px">Barras = % dos votos válidos de cada candidato no estado. Fundo = % de seções apuradas. Toque num estado para detalhar.</div>
-  <div class="note only-proj" style="margin-bottom:8px">PROJEÇÃO: barras = % projetado de cada candidato no estado. Dentro de um estado a projeção escala todos os candidatos pelo mesmo fator, então o % projetado é igual ao atual; o que muda é o peso do estado no total nacional.</div>
+  <div class="note only-atual" style="margin-bottom:8px">Cor do quadro = % dos votos válidos de cada candidato no estado, da esquerda para a direita (cinza = outros). Canto = % de seções apuradas. Toque num estado para detalhar.</div>
+  <div class="note only-proj" style="margin-bottom:8px">PROJEÇÃO: cores do quadro = % projetado de cada candidato no estado. Dentro de um estado a projeção escala todos os candidatos pelo mesmo fator, então o % projetado é igual ao atual; o que muda é o peso do estado no total nacional.</div>
   <div class="grid" id="grid"></div>
 </section>
 
@@ -104,8 +102,8 @@ body.proj .card{border-color:var(--pacc)}
 
 </details>
 </section>
-<footer class="note">Dados: <a href="https://resultados.tse.jus.br/oficial/app/index.html">TSE — resultados oficiais</a>, lidos direto do navegador a cada 60 s. Candidatos ordenados por votos; cores: vermelho = Lula (13), azul = Flávio (22), verde = 3º colocado nacional. Código: <a href="https://github.com/tonylampada/apuracao-2026">github.com/tonylampada/apuracao-2026</a>.</footer>
+<footer class="note">Dados: <a href="https://resultados.tse.jus.br/oficial/app/index.html">TSE — resultados oficiais</a>, lidos direto do navegador a cada 60 s. Candidatos ordenados por votos; cores: vermelho = Lula (13), azul = Flávio (22), verde/laranja/rosa = 3º/4º/5º colocados nacionais (votos apurados); demais em cinza. Código: <a href="https://github.com/tonylampada/apuracao-2026">github.com/tonylampada/apuracao-2026</a>.</footer>
 </main>
-<script src="app.js?v=4"></script>
+<script src="app.js?v=7"></script>
 </body>
 </html>

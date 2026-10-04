@@ -38,22 +38,24 @@ let mode = "atual";     // "atual" = TSE numbers only; "proj" = projection of th
 try { if (localStorage.getItem("modo") === "proj") mode = "proj"; } catch {}
 const P = () => mode === "proj";
 
-// Candidate colours by ballot number (captain's call): 13 Lula red, 22 Flávio blue, 3rd nationally green, rest grey.
-const CURTO = {13: "Lula", 22: "Flávio"};
+// Candidate colours by ballot number (captain's call): 13 Lula red, 22 Flávio blue, then the national 3rd/4th/5th
+// by counted votes green/amber/pink; everyone else grey.
+const CURTO = {13: "Lula", 22: "Flávio", 14: "Renan Santos"};
 const curto = c => CURTO[c.n] || c.nome.split(" ").pop().toLowerCase().replace(/^./, s => s.toUpperCase());
-const terceiro = () => pres.br?.cands.find(c => c.n !== "13" && c.n !== "22");
-const cor = n => n === "13" ? "var(--c13)" : n === "22" ? "var(--c22)" : n === terceiro()?.n ? "var(--c3)" : "";
+const top5 = () => ["13", "22", ...(pres.br?.cands ?? []).map(c => c.n).filter(n => n !== "13" && n !== "22").slice(0, 3)];
+const COR = ["var(--c13)", "var(--c22)", "var(--c3)", "var(--c4)", "var(--c5)"];
+const cor = n => COR[top5().indexOf(n)] || "";
 const cc = n => cor(n) ? ` style="--cc:${cor(n)}"` : "";
 
 // Current mode: votes and % as TSE reports. Projection mode: projected figure first, current beside it, labelled.
 function candRows(list, opts) {
-  const proj = P(), max = Math.max(...list.map(c => proj && opts.projPct ? Math.max(c.pct, c.ppct) : c.pct), 1);
+  const proj = P();   // bar widths are absolute % of valid votes on a 0-100 scale
   const head = proj ? `<div class="colh"><span>atual (TSE): votos · %</span><span>${opts.projPct ? "% projetado" : "votos projetados"}</span></div>` : "";
   return head + list.map(c => `<div class="cand">
       <span class="nm"${cc(c.n)}>${cor(c.n) ? '<i class="sw"></i>' : ""}${esc(c.nome)} <small>${esc(c.sg)}</small>${c.eleito ? '<span class="tag el">eleito</span>' : ""}</span>
       <span class="v">${proj ? '<small class="lab">atual</small> ' : ""}${fmt(c.votos)} · <b>${pct(c.pct)}</b></span>
       ${proj ? `<span class="pj"><small class="lab">projetado</small> ${opts.projPct ? pct(c.ppct) : fmt(c.proj)}</span>` : "<span></span>"}
-      <span class="bars"${opts.color ? cc(c.n) : ""}>${proj && opts.projPct ? `<i class="p" style="width:${c.ppct / max * 100}%"></i>` : ""}<i class="a${proj ? "" : " full"}" style="width:${c.pct / max * 100}%"></i></span>
+      <span class="bars"${opts.color ? cc(c.n) : ""}>${proj && opts.projPct ? `<i class="p" style="width:${c.ppct}%"></i>` : ""}<i class="a${proj ? "" : " full"}" style="width:${c.pct}%"></i></span>
     </div>`).join("");
 }
 
@@ -85,17 +87,20 @@ function renderBR() {
 function renderGrid() {
   const key = $("#sort").value;
   const ufs = UFS.filter(u => pres[u]).sort((a, b) => key === "uf" ? a.localeCompare(b) : key === "te" ? pres[b].te - pres[a].te : pres[a].pst - pres[b].pst);
-  const t = terceiro();
-  $("#leg").innerHTML = [["13", "Lula"], ["22", "Flávio"], [t?.n, t && curto(t)]].filter(x => x[0])
-    .map(([n, s]) => `<span${cc(n)}><i></i>${esc(s)}</span>`).join("") + `<span style="color:var(--mut)">${P() ? "% projetado" : "% dos válidos"} no estado</span>`;
+  const t = top5();
+  $("#leg").innerHTML = ["22", "13", ...t.slice(2)].map(n => pres.br.cands.find(c => c.n === n)).filter(Boolean)
+    .map(c => `<span${cc(c.n)}><i></i>${esc(curto(c))}</span>`).join("") + `<span><i></i>outros</span>` + `<span style="color:var(--mut)">${P() ? "% projetado" : "% dos válidos"} no estado</span>`;
   $("#grid").innerHTML = ufs.map(u => {
     const r = pres[u], l = r.cands[0];
     // within a state every candidate is scaled by the same factor, so projected % == current %
-    const bars = ["13", "22", t?.n].map(n => r.cands.find(c => c.n === n)).filter(Boolean)
-      .map(c => `<span class="tb"${cc(c.n)} title="${esc(curto(c))} ${pct(c.pct)}"><i style="width:${c.pct}%"></i></span>`).join("");
-    return `<button class="uf${u === sel ? " sel" : ""}" style="--p:${r.pst / 100}" data-uf="${u}">
+    // the tile is a stacked bar: Flávio, Lula, national 3rd-5th left to right, grey remainder = everyone else
+    let x = 0;
+    const seg = ["22", "13", ...t.slice(2)].map(n => r.cands.find(c => c.n === n)).filter(Boolean)
+      .map(c => `${cor(c.n)} ${x}% ${x = Math.min(100, x + c.pct)}%`);
+    const tip = r.cands.filter(c => cor(c.n)).map(c => `${curto(c)} ${pct(c.pct)}`).join(" · ");
+    return `<button class="uf${u === sel ? " sel" : ""}" style="background:linear-gradient(90deg,${[...seg, `var(--tg) ${x}% 100%`].join(",")})" data-uf="${u}" title="${esc(tip)}">
       <b>${u.toUpperCase()}</b><span class="pc">${pct(r.pst)}</span>
-      <span class="ld"${cc(l?.n)}>${l ? esc(curto(l)) + " " + pct(l.pct) : "—"}</span>${bars}${P() ? '<small class="pl">% projetado</small>' : ""}</button>`;
+      <span class="ld">${l ? esc(curto(l)) + " " + pct(l.pct) : "—"}</span></button>`;
   }).join("");
 }
 
