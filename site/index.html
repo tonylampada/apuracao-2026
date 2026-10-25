@@ -64,11 +64,25 @@ body.proj .only-atual{display:none}
 .banner small{display:block;font-weight:400;letter-spacing:0;opacity:.9}
 body.proj{--acc:var(--pacc);--bg:var(--pbg)}
 body.proj .card{border-color:var(--pacc)}
+.tabs{display:flex;gap:4px;border-bottom:2px solid var(--line);margin:0 0 4px}
+.tabs button{font:inherit;font-size:16px;font-weight:700;padding:10px 18px;border:0;border-bottom:3px solid transparent;margin-bottom:-2px;background:transparent;color:var(--mut);cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--acc)}
+.duel{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:2px 0 12px}
+.duel div{border-left:6px solid var(--cc);padding:2px 0 2px 10px;min-width:0}
+.duel div:last-child{border-left:0;border-right:6px solid var(--cc);padding:2px 10px 2px 0;text-align:right}
+.duel span{display:block;font-weight:700;color:var(--cc)}
+.duel b{display:block;font-size:34px;line-height:1.1;font-variant-numeric:tabular-nums}
+.duel small{color:var(--mut);font-variant-numeric:tabular-nums}
+.wait{border:1px dashed var(--line);border-radius:10px;padding:12px;margin:0 0 10px;font-weight:600;text-align:center}
+.t1o{display:none}body.t1 .t1o{display:inline}body.t1 .t2o{display:none}
 </style>
 </head>
 <body>
 <main>
-<header><h1>Apuração 2026 · 1º turno</h1><div id="status">carregando…</div></header>
+<header><h1>Apuração 2026</h1><div id="status">carregando…</div></header>
+<nav class="tabs" id="turnos" role="tablist" aria-label="Turno">
+  <button role="tab" data-t="2" aria-selected="true">2º turno</button><button role="tab" data-t="1" aria-selected="false">1º turno</button>
+</nav>
 
 <div class="modo">
   <div class="seg" id="modo" role="group" aria-label="Ver projeção do resultado final">
@@ -84,7 +98,7 @@ body.proj .card{border-color:var(--pacc)}
   <div class="row"><h2 style="margin:0">Estados</h2>
     <span class="sortb">ordenar: <select id="sort"><option value="pst">% apurado</option><option value="te">eleitorado</option><option value="uf">sigla</option></select></span></div>
   <div class="leg" id="leg"></div>
-  <div class="note only-atual" style="margin-bottom:8px">Cor do quadro = % dos votos válidos de cada candidato no estado, da esquerda para a direita (cinza = outros). Canto = % de seções apuradas. Toque num estado para detalhar.</div>
+  <div class="note only-atual" style="margin-bottom:8px">Cor do quadro = % dos votos válidos de cada candidato no estado, da esquerda para a direita <span class="t1o">(cinza = outros)</span><span class="t2o">(azul = Flávio, vermelho = Lula; cinza = ainda sem votos apurados)</span>. Canto = % de seções apuradas. Toque num estado para detalhar.</div>
   <div class="note only-proj" style="margin-bottom:8px">PROJEÇÃO: cores do quadro = % projetado de cada candidato no estado. Dentro de um estado a projeção escala todos os candidatos pelo mesmo fator, então o % projetado é igual ao atual; o que muda é o peso do estado no total nacional.</div>
   <div class="grid" id="grid"></div>
 </section>
@@ -97,13 +111,13 @@ body.proj .card{border-color:var(--pacc)}
 <section class="card note only-proj">
 <details open><summary>Como a projeção é calculada</summary>
 <p>Para cada estado (e para o exterior), supõe-se que as seções ainda não apuradas votam nas mesmas proporções que as já apuradas. Cada candidato tem seus votos escalados pelo fator <code>eleitorado total ÷ eleitorado das seções apuradas</code> (campos <code>e.te</code> e <code>e.est</code> do TSE), ou seja, projeta o total de votos esperado no estado mantendo o comparecimento observado.</p>
-<p>A projeção nacional para presidente é a soma das projeções de cada estado + exterior. Isso corrige o viés de estados grandes (SP, RJ, MG…) que apuram mais devagar. Governador e senador usam a mesma conta por estado.</p>
+<p>A projeção nacional para presidente é a soma das projeções de cada estado + exterior. Isso corrige o viés de estados grandes (SP, RJ, MG…) que apuram mais devagar. <span class="t1o">Governador e senador usam a mesma conta por estado.</span><span class="t2o">Governador (só nos estados com 2º turno: AC, AM, DF, ES, RN, TO) usa a mesma conta.</span></p>
 <p><b>Ressalva:</b> a projeção supõe comportamento uniforme dentro de cada estado; capitais e interior costumam apurar em ritmos diferentes e votar diferente, então a projeção pode errar, principalmente com pouco apurado.</p>
 
 </details>
 </section>
-<footer class="note">Dados: <a href="https://resultados.tse.jus.br/oficial/app/index.html">TSE — resultados oficiais</a>, lidos direto do navegador a cada 60 s. Candidatos ordenados por votos; cores: vermelho = Lula (13), azul = Flávio (22), verde/laranja/rosa = 3º/4º/5º colocados nacionais (votos apurados); demais em cinza. Código: <a href="https://github.com/tonylampada/apuracao-2026">github.com/tonylampada/apuracao-2026</a>.</footer>
+<footer class="note">Dados: <a href="https://resultados.tse.jus.br/oficial/app/index.html">TSE — resultados oficiais</a>, lidos direto do navegador a cada 60 s. Candidatos ordenados por votos; cores: vermelho = Lula (13), azul = Flávio (22)<span class="t1o">, verde/laranja/rosa = 3º/4º/5º colocados nacionais (votos apurados); demais em cinza</span>. Código: <a href="https://github.com/tonylampada/apuracao-2026">github.com/tonylampada/apuracao-2026</a>.</footer>
 </main>
-<script src="app.js?v=7"></script>
+<script src="app.js?v=8"></script>
 </body>
 </html>
